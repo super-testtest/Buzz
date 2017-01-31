@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tailored_Events>
+            <version>0.1.0</version>
+        </Tailored_Events>
+    </modules>
+    <global>
+
+        <helpers>
+            <events>
+                <class>Tailored_Events_Helper</class>
+            </events>
+        </helpers>
+    	<models>
+        	<events>
+        		<class>Tailored_Events_Model</class>
+        		<resourceModel>events_mysql4</resourceModel>
+        	</events>
+    	</models>
+
+        <events>
+    	    <controller_action_postdispatch_adminhtml_import_start>
+                <observers>
+                    <controller_action_postdispatch_adminhtml_import_start_handler>
+                        <type>singleton</type>
+                        <class>events/observer</class>
+                        <method>reIndexing</method>
+                        <args></args>
+                    </controller_action_postdispatch_adminhtml_import_start_handler>
+                </observers>
+            </controller_action_postdispatch_adminhtml_import_start>
+            <catalog_product_import_finish_before>
+                <observers>
+                    <catalog_product_import_finish_before_handler>
+                        <type>singleton</type>
+                        <class>events/observer</class>
+                        <method>beforeImportFunction</method>
+                        <args></args>
+                    </catalog_product_import_finish_before_handler>
+                </observers>
+            </catalog_product_import_finish_before>
+        </events>
+    </global>
+</config> 

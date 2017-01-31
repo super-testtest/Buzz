@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+	<layout>
+		<default>
+			<reference name="left">
+				<remove name="left.reports.product.viewed" />
+			</reference>
+			<!-- Removal ontop -->
+			<!-- JS and CSS declaration -->
+
+			<default>
+				<reference name="head">
+					<action method="addItem">
+					<type>skin_js</type><name>js/jquery.min.js</name>
+					</action>
+					<action method="addItem">
+					<type>skin_js</type><name>js/bootstrap.min.js</name>
+					</action>
+					<action method="addItem">
+					<type>skin_js</type><name>js/jquery.scripts.js</name>
+					</action>
+				</reference>
+			</default>
+
+		</default>
+	</layout>
+</layout>
+<config>
+	<global>
+		<page_block_html_topmenu_gethtml_before>
+            <observers>                    
+                <catalog_add_topmenu_items>
+                    <type>enable</type>
+                </catalog_add_topmenu_items>
+                <custom_catalog_add_topmenu_items>
+                    <class>custom_catalog/observer</class>
+                    <method>addCatalogToTopmenuItems</method>
+                </custom_catalog_add_topmenu_items>                    
+            </observers>
+        </page_block_html_topmenu_gethtml_before>    
+	</global>
+</config>

@@ -1,0 +1,158 @@
+sku,_store,_attribute_set,_type,_category,_root_category,_product_websites,cost,created_at,description,manufacturer,features,spectablehtml,name,price,short_description,status,tax_class_id,visibility,weight,qty,min_qty,use_config_min_qty,is_qty_decimal,backorders,use_config_backorders,min_sale_qty,use_config_min_sale_qty,max_sale_qty,use_config_max_sale_qty,is_in_stock,notify_stock_qty,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,stock_status_changed_auto,use_config_qty_increments,qty_incrementsuse_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,_media_attribute_id,_media_lable,_media_image,image,small_image,thumbnail,pdfs,special_price
+HBN3450UC,,Default,simple,"Large Appliance/Electric Ranges","Default Category",base,,"2016-10-07 03:55:07",,BOSCH,"
+            <ul>
+ <li>Key Features</li>
+ <blockquote>
+ <li>Large Capacity at 4.2 Cu.Ft.</li>
+ </blockquote>
+ <blockquote>
+ <li>EcoClean 2-Hour Self-Clean Cycle</li>
+ </blockquote>
+ <blockquote>
+ <li>Recessed Broil Element for Increased Capacity and Safety</li>
+ </blockquote>
+ <li>Design</li>
+ <blockquote>
+ <li>Contemporary Stainless Steel Design</li>
+ </blockquote>
+ <blockquote>
+ <li>ClearTouch(R) Glass Control</li>
+ </blockquote>
+ <blockquote>
+ <li>Flush-to-Cabinet Design</li>
+ </blockquote>
+ <blockquote>
+ <li>Dial Controls - Direct Access to Cooking Modes</li>
+ </blockquote>
+ <li>Performance</li>
+ <blockquote>
+ <li>10 Cooking Modes for Convenient Every Day Cooking</li>
+ </blockquote>
+ <li>Efficiency</li>
+ <blockquote>
+ <li>EcoClean 2-Hour Self-Clean Cycle</li>
+ </blockquote>
+ <li>Convenience</li>
+ <blockquote>
+ <li>Amber Colored Display</li>
+ </blockquote>
+ <blockquote>
+ <li>Timer with Cook Time Function</li>
+ </blockquote>
+ <blockquote>
+ <li>Extra Large Door Window for Easy Monitoring of Cooking</li>
+ </blockquote>
+ <blockquote>
+ <li>High Quality Self-cleaning Rack Supports</li>
+ </blockquote>
+ <blockquote>
+ <li>Preheat Monitor Shows Progress of Preheat Cycle</li>
+ </blockquote>
+ <li>Capacity</li>
+ <blockquote>
+ <li>Large Capacity at 4.2 Cu.Ft.</li>
+ </blockquote>
+ <blockquote>
+ <li>Recessed Broil Element for Increased Capacity and Safety</li>
+ </blockquote>
+ <blockquote>
+ <li>Hidden Bake Element for Increased Capacity</li>
+ </blockquote>
+</ul>
+         ","<table  class=""inline_sd_table"">
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">FEAT_OVEN</td>
+     <td class=""inline_sd_even_cell"">, ,</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Cooking method primary cavity</td>
+     <td class=""inline_sd_even_cell"">Convection Bake, Convection Broil, Convection Roast, Conventional heat, Dough proving setting, Half width variable grill, Hot air & bottom heat, Pizza setting, Top heating, 1/3 bottom heat., warming</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Cleaning system - primary cavity</td>
+     <td class=""inline_sd_odd_cell"">Self Clean</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Interior Lights - primary cavity</td>
+     <td class=""inline_sd_even_cell"">1</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Timer settings</td>
+     <td class=""inline_sd_odd_cell"">Alarm, timer</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Included accessories</td>
+     <td class=""inline_sd_even_cell"">3 x Oven racks /upper</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Oven Performance</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Bake Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">2000 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Broil Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_odd_cell"">3600 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Convection Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">2000 W</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Certifications</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Approval certificates</td>
+     <td class=""inline_sd_even_cell"">CSA</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Dimensions & Weight</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Overall Appliance Dimensions (HxWxD) (in)</td>
+     <td class=""inline_sd_even_cell"">29 1/16'' x 26 3/4'' x 23 7/8''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Required cutout size (HxWxD) (in)</td>
+     <td class=""inline_sd_odd_cell"">28 1/4'' x 25 1/2'' x 24''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Product packaging dimensions (HxWxD) (in)</td>
+     <td class=""inline_sd_even_cell"">34'' x 34'' x 31''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Power Cord Length</td>
+     <td class=""inline_sd_odd_cell"">50''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Net weight (lbs)</td>
+     <td class=""inline_sd_even_cell"">153 lbs</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Gross weight (lbs)</td>
+     <td class=""inline_sd_odd_cell"">179 lbs</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Installation Requirements</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Watts (W)</td>
+     <td class=""inline_sd_even_cell"">5,800 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Current (A)</td>
+     <td class=""inline_sd_odd_cell"">30; 25 A</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Volts (V)</td>
+     <td class=""inline_sd_even_cell"">240/208 V</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Frequency (Hz)</td>
+     <td class=""inline_sd_odd_cell"">60 Hz</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Plug type</td>
+     <td class=""inline_sd_even_cell"">Fixed connection, No plug</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Energy source</td>
+     <td class=""inline_sd_odd_cell"">Electric</td>
+</tr>
+</table>
+","27"" Single Wall Oven 300 Series - Stainless Steel",,"27"" Single Wall Oven 300 Series - Stainless Steel",1,2,4,153,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,88,88,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,"Download Product Information**http://www.specsserver.com/CACHE/FRLKEOKSSAAN.PDF",

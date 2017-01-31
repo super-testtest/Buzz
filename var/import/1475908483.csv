@@ -1,0 +1,872 @@
+sku,_store,_attribute_set,_type,_category,_root_category,_product_websites,cost,created_at,description,manufacturer,features,spectablehtml,name,price,short_description,status,tax_class_id,visibility,weight,qty,min_qty,use_config_min_qty,is_qty_decimal,backorders,use_config_backorders,min_sale_qty,use_config_min_sale_qty,max_sale_qty,use_config_max_sale_qty,is_in_stock,notify_stock_qty,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,stock_status_changed_auto,use_config_qty_increments,qty_incrementsuse_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,_media_attribute_id,_media_lable,_media_image,image,small_image,thumbnail,pdfs,special_price
+DWT25502SS,,Default,simple,"Large Appliance/Dishwashers","Default Category",base,,"2016-10-08 06:34:43","Anti-fingerprint Stainless Steel door panel, All Stainless Steel Interior protects dishwasher from heat and corrosion. Power Plug Included for easy and economical installation. 167(degree)F maximum water temp for completely clean and sanitized dishes. Water Counter ensures the right amount of water for clean dishes and no flooding. Double Wall Flow-through Heater for safe heating without corrosion. Internally-looped hose with air break prevents siphoning and dirty water backflow. Tablet function and 1/2 load function guarantee the right wash every time. Naturally, like all Blomberg dishwashers - it is Energy Star qualified.","BLOMBERG APPLIANCES",,"<table  class=""inline_sd_table"">
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">PRODUCT TYPE</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Dishwasher Type</td>
+     <td class=""inline_sd_even_cell"">Built Under</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Type</td>
+     <td class=""inline_sd_odd_cell"">Front Control</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">PRODUCT COLOR</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Product Color</td>
+     <td class=""inline_sd_even_cell"">Inox - Fingerprint Proof</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">MAIN FEATURES</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Number of Place Settings</td>
+     <td class=""inline_sd_even_cell"">14</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Tub</td>
+     <td class=""inline_sd_odd_cell"">Stainless Steel Tub</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">DMFS overflow protection</td>
+     <td class=""inline_sd_even_cell"">Overflow Safety</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">5 level wash with 3rd spray arm</td>
+     <td class=""inline_sd_odd_cell"">3</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Delay Timer (hr)</td>
+     <td class=""inline_sd_even_cell"">1/2 - 24:00</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">3 way euro filter</td>
+     <td class=""inline_sd_odd_cell"">Partial Metal</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Drying System</td>
+     <td class=""inline_sd_even_cell"">Static</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Brushless DCTM motor</td>
+     <td class=""inline_sd_odd_cell"">BLDC</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Turbidity sensor</td>
+     <td class=""inline_sd_even_cell"">Yes</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Allin1 tablet function</td>
+     <td class=""inline_sd_odd_cell"">Automatic</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Half Load</td>
+     <td class=""inline_sd_even_cell"">Yes</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Power plug</td>
+     <td class=""inline_sd_odd_cell"">USA-Canada</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">DISPLAY</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Program sequence</td>
+     <td class=""inline_sd_even_cell"">LCD 2 Rows</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Rinse aid indicator</td>
+     <td class=""inline_sd_odd_cell"">Yes</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">RACK SYSTEM</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Cutlery Basket</td>
+     <td class=""inline_sd_even_cell"">Sliding</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Upper rack (inset shelves)</td>
+     <td class=""inline_sd_odd_cell"">2</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">FlexiRack, adjustable upper rack</td>
+     <td class=""inline_sd_even_cell"">Unloaded adjustable</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">DIMENSIONS</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Height - Unpacked (in)</td>
+     <td class=""inline_sd_even_cell"">33 7/8""</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Width - Unpacked (in)</td>
+     <td class=""inline_sd_odd_cell"">23 1/2""</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Depth - Unpacked (in)</td>
+     <td class=""inline_sd_even_cell"">22 1/2""</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Weight - Unpacked (lb.)</td>
+     <td class=""inline_sd_odd_cell"">83</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Height - Unpacked (cm)</td>
+     <td class=""inline_sd_even_cell"">86.1 cm</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Width - Unpacked (cm)</td>
+     <td class=""inline_sd_odd_cell"">59.8 cm</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Depth - Unpacked (cm)</td>
+     <td class=""inline_sd_even_cell"">57.0 cm</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Weight - Unpacked (kg)</td>
+     <td class=""inline_sd_odd_cell"">37.8 kg</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">ENVIROMENTAL STANDARTS</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Water consumption (gal/cycle)</td>
+     <td class=""inline_sd_even_cell"">3.5 - 5.0 Gal</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">OTHERS</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">EAN Code</td>
+     <td class=""inline_sd_even_cell"">8690842064593</td>
+</tr>
+</table>
+","Tall Tub dishwasher 5 cycle front control Stainless Steel 49 dBA",705.0,"Tall Tub dishwasher 5 cycle front control Stainless Steel 49 dBA",1,2,4,,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,88,88,http://www.specsserver.com/CACHE/MECXFBHOSJLV.JPG,http://www.specsserver.com/CACHE/MECXFBHOSJLV.JPG,http://www.specsserver.com/CACHE/MECXFBHOSJLV.JPG,http://www.specsserver.com/CACHE/MECXFBHOSJLV.JPG,http://www.specsserver.com/CACHE/MECXFBHOSJLV.JPG,"Energy Label**http://www.specsserver.com/CACHE/frvlejcxoije.pdf||User Manual**http://www.specsserver.com/CACHE/frpsidlsvgal.pdf||Installation Manual**http://www.specsserver.com/CACHE/frkdufsuhogy.pdf||Technical Specs**http://www.specsserver.com/CACHE/frpcppdjcdoa.pdf",
+DUH30152UC,,Default,simple,"Large Appliance/HOOD","Default Category",base,,"2016-10-08 06:34:43","Bosch Under Cabinet Hoods Complete Your Bosch Kitchen Suite With Matching User Interfaces and Sleek European Design (UL)(LI)(B)(/B)280 CFM Blower Included (/LI)(LI)(B)(/B)Three Power Levels (/LI)(LI)(B)(/B)Dishwasher safe aluminum mesh filters (/LI)(LI)(B)(/B)Top or Rear Venting Options (/LI)(LI)(B)(/B)Ducted or Non-ducted Options (/LI)(/UL)(P) (/P)",BOSCH,"
+            <ul>
+ <li>Design</li>
+ <blockquote>
+ <li>Brushed Stainless Steel Finish</li>
+ </blockquote>
+ <blockquote>
+ <li>Two Incandescent Lights</li>
+ </blockquote>
+ <li>Performance</li>
+ <blockquote>
+ <li>280 CFM Blower Included</li>
+ </blockquote>
+ <blockquote>
+ <li>Three Power Levels</li>
+ </blockquote>
+ <blockquote>
+ <li>Quickly and Quietly Clears the Air of Smoke and Odor</li>
+ </blockquote>
+ <li>Convenience</li>
+ <blockquote>
+ <li>Dishwasher-safe Mesh Filters</li>
+ </blockquote>
+ <blockquote>
+ <li>Easy to Use Rotary Controls</li>
+ </blockquote>
+ <blockquote>
+ <li>Top or Rear Venting Options</li>
+ </blockquote>
+ <blockquote>
+ <li>Ducted or Non-ducted Options</li>
+ </blockquote>
+</ul>
+
+         ","<table  class=""inline_sd_table"">
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Specifications</td></tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Operating Mode</b></td>
+     <td class=""inline_sd_even_cell"">Convertable: Ducted / Recirculating</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Number of speed settings</b></td>
+     <td class=""inline_sd_odd_cell"">3-stage</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Motor location</b></td>
+     <td class=""inline_sd_even_cell"">Integrated motor in hood body</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Number of lights</b></td>
+     <td class=""inline_sd_odd_cell"">2</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Type of lamps used</b></td>
+     <td class=""inline_sd_even_cell"">Bulbs</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Total power of the lamps (W)</b></td>
+     <td class=""inline_sd_odd_cell"">80 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Grease filter type</b></td>
+     <td class=""inline_sd_even_cell"">Multilayer cassette</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Grease filter material</b></td>
+     <td class=""inline_sd_odd_cell"">Washable aluminium</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Certifications</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Approval certificates</b></td>
+     <td class=""inline_sd_even_cell"">CSA, UL</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Installation Requirements</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Volts (V)</b></td>
+     <td class=""inline_sd_even_cell"">120 V</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Frequency (Hz)</b></td>
+     <td class=""inline_sd_odd_cell"">60 Hz</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Plug type</b></td>
+     <td class=""inline_sd_even_cell"">120V-3 prong</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""></td>
+     <td class=""inline_sd_odd_cell""></td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Overall appliance dimensions (HxWxD) (in)</b></td>
+     <td class=""inline_sd_even_cell"">4 3/4'' / 4 3/4'' x 30'' x 20''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Product packaging dimensions (HxWxD) (in)</b></td>
+     <td class=""inline_sd_odd_cell"">12.99 x 23.99 x 35.99</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Required distance above cooktop/ranges</b></td>
+     <td class=""inline_sd_even_cell"">30''/30''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Net weight (lbs)</b></td>
+     <td class=""inline_sd_odd_cell"">42 lbs</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Gross weight (lbs)</b></td>
+     <td class=""inline_sd_even_cell"">48 lbs</td>
+</tr>
+</table>
+","DUH30152UC 30"" Under Cabinet Wall Hood 300 Series - Stainless Steel",389.0,"DUH30152UC 30"" Under Cabinet Wall Hood 300 Series - Stainless Steel",1,2,4,42,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,88,88,http://www.specsserver.com/CACHE/FREMIPHDEXIY.PNG,http://www.specsserver.com/CACHE/FREMIPHDEXIY.PNG,http://www.specsserver.com/CACHE/FREMIPHDEXIY.PNG,http://www.specsserver.com/CACHE/FREMIPHDEXIY.PNG,http://www.specsserver.com/CACHE/FREMIPHDEXIY.PNG,"Download PDF**http://www.specsserver.com/CACHE/fruvvfesqqju.pdf||Download PDF**http://www.specsserver.com/CACHE/fruqlkpqbrkw.pdf||Download Spec Sheet PDF**http://www.specsserver.com/CACHE/frbhpgbiihem.pdf||Download PDF to computer or tablet (4933 KB)**http://www.specsserver.com/CACHE/frcauovhyqbm.pdf",
+DUH36152UC,,Default,simple,"Large Appliance/HOOD","Default Category",base,,"2016-10-08 06:34:43","Bosch Under Cabinet Hoods Complete Your Bosch Kitchen Suite With Matching User Interfaces and Sleek European Design (UL)(LI)(B)(/B)280 CFM Blower Included (/LI)(LI)(B)(/B)Three Power Levels (/LI)(LI)(B)(/B)Dishwasher safe aluminum mesh filters (/LI)(LI)(B)(/B)Top or Rear Venting Options (/LI)(LI)(B)(/B)Ducted or Non-ducted Options (/LI)(/UL)(P) (/P)",BOSCH,"
+            <ul>
+ <li>Design</li>
+ <blockquote>
+ <li>Brushed Stainless Steel Finish</li>
+ </blockquote>
+ <blockquote>
+ <li>Two Incandescent Lights</li>
+ </blockquote>
+ <li>Performance</li>
+ <blockquote>
+ <li>Three Power Levels</li>
+ </blockquote>
+ <blockquote>
+ <li>Quickly and Quietly Clears the Air of Smoke and Odor</li>
+ </blockquote>
+ <li>Efficiency</li>
+ <blockquote>
+ <li>280 CFM Blower Included</li>
+ </blockquote>
+ <li>Convenience</li>
+ <blockquote>
+ <li>Dishwasher-safe Mesh Filters</li>
+ </blockquote>
+ <blockquote>
+ <li>Easy to Use Rotary Controls</li>
+ </blockquote>
+ <blockquote>
+ <li>Top or Rear Venting Options</li>
+ </blockquote>
+ <blockquote>
+ <li>Ducted or Non-ducted Options</li>
+ </blockquote>
+</ul>
+
+         ","<table  class=""inline_sd_table"">
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Specifications</td></tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Operating Mode</b></td>
+     <td class=""inline_sd_even_cell"">Convertable: Ducted / Recirculating</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Number of speed settings</b></td>
+     <td class=""inline_sd_odd_cell"">3-stage</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Motor location</b></td>
+     <td class=""inline_sd_even_cell"">Integrated motor in hood body</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Number of lights</b></td>
+     <td class=""inline_sd_odd_cell"">2</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Type of lamps used</b></td>
+     <td class=""inline_sd_even_cell"">Bulbs</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Total power of the lamps (W)</b></td>
+     <td class=""inline_sd_odd_cell"">80 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Grease filter type</b></td>
+     <td class=""inline_sd_even_cell"">Multilayer cassette</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Grease filter material</b></td>
+     <td class=""inline_sd_odd_cell"">Washable aluminium</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Certifications</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Approval certificates</b></td>
+     <td class=""inline_sd_even_cell"">CSA, UL</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Installation Requirements</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Volts (V)</b></td>
+     <td class=""inline_sd_even_cell"">120 V</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Frequency (Hz)</b></td>
+     <td class=""inline_sd_odd_cell"">60 Hz</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Plug type</b></td>
+     <td class=""inline_sd_even_cell"">120V-3 prong</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""></td>
+     <td class=""inline_sd_odd_cell""></td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Overall appliance dimensions (HxWxD) (in)</b></td>
+     <td class=""inline_sd_even_cell"">4 3/4'' / 4 3/4'' x 36'' x 20''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Product packaging dimensions (HxWxD) (in)</b></td>
+     <td class=""inline_sd_odd_cell"">12.99 x 23.99 x 35.99</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Required distance above cooktop/ranges</b></td>
+     <td class=""inline_sd_even_cell"">30''/30''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell""><b>Net weight (lbs)</b></td>
+     <td class=""inline_sd_odd_cell"">41 lbs</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell""><b>Gross weight (lbs)</b></td>
+     <td class=""inline_sd_even_cell"">48 lbs</td>
+</tr>
+</table>
+","DUH36152UC 36"" Under Cabinet Wall Hood 300 Series - Stainless Steel",439.0,"DUH36152UC 36"" Under Cabinet Wall Hood 300 Series - Stainless Steel",1,2,4,41,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,88,88,http://www.specsserver.com/CACHE/FRTBEXGDKXKC.PNG,http://www.specsserver.com/CACHE/FRTBEXGDKXKC.PNG,http://www.specsserver.com/CACHE/FRTBEXGDKXKC.PNG,http://www.specsserver.com/CACHE/FRTBEXGDKXKC.PNG,http://www.specsserver.com/CACHE/FRTBEXGDKXKC.PNG,"Download PDF**http://www.specsserver.com/CACHE/fruvvfesqqju.pdf||Download PDF**http://www.specsserver.com/CACHE/fruqlkpqbrkw.pdf||Download Spec Sheet PDF**http://www.specsserver.com/CACHE/frlkyjcvqevx.pdf||Download PDF to computer or tablet (4933 KB)**http://www.specsserver.com/CACHE/frcauovhyqbm.pdf",
+HBN3450UC,,Default,simple,"Large Appliance/Electric Ranges","Default Category",base,,"2016-10-08 06:34:43",,BOSCH,"
+            <ul>
+ <li>Key Features</li>
+ <blockquote>
+ <li>Large Capacity at 4.2 Cu.Ft.</li>
+ </blockquote>
+ <blockquote>
+ <li>EcoClean 2-Hour Self-Clean Cycle</li>
+ </blockquote>
+ <blockquote>
+ <li>Recessed Broil Element for Increased Capacity and Safety</li>
+ </blockquote>
+ <li>Design</li>
+ <blockquote>
+ <li>Contemporary Stainless Steel Design</li>
+ </blockquote>
+ <blockquote>
+ <li>ClearTouch(R) Glass Control</li>
+ </blockquote>
+ <blockquote>
+ <li>Flush-to-Cabinet Design</li>
+ </blockquote>
+ <blockquote>
+ <li>Dial Controls - Direct Access to Cooking Modes</li>
+ </blockquote>
+ <li>Performance</li>
+ <blockquote>
+ <li>10 Cooking Modes for Convenient Every Day Cooking</li>
+ </blockquote>
+ <li>Efficiency</li>
+ <blockquote>
+ <li>EcoClean 2-Hour Self-Clean Cycle</li>
+ </blockquote>
+ <li>Convenience</li>
+ <blockquote>
+ <li>Amber Colored Display</li>
+ </blockquote>
+ <blockquote>
+ <li>Timer with Cook Time Function</li>
+ </blockquote>
+ <blockquote>
+ <li>Extra Large Door Window for Easy Monitoring of Cooking</li>
+ </blockquote>
+ <blockquote>
+ <li>High Quality Self-cleaning Rack Supports</li>
+ </blockquote>
+ <blockquote>
+ <li>Preheat Monitor Shows Progress of Preheat Cycle</li>
+ </blockquote>
+ <li>Capacity</li>
+ <blockquote>
+ <li>Large Capacity at 4.2 Cu.Ft.</li>
+ </blockquote>
+ <blockquote>
+ <li>Recessed Broil Element for Increased Capacity and Safety</li>
+ </blockquote>
+ <blockquote>
+ <li>Hidden Bake Element for Increased Capacity</li>
+ </blockquote>
+</ul>
+         ","<table  class=""inline_sd_table"">
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">FEAT_OVEN</td>
+     <td class=""inline_sd_even_cell"">, ,</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Cooking method primary cavity</td>
+     <td class=""inline_sd_even_cell"">Convection Bake, Convection Broil, Convection Roast, Conventional heat, Dough proving setting, Half width variable grill, Hot air & bottom heat, Pizza setting, Top heating, 1/3 bottom heat., warming</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Cleaning system - primary cavity</td>
+     <td class=""inline_sd_odd_cell"">Self Clean</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Interior Lights - primary cavity</td>
+     <td class=""inline_sd_even_cell"">1</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Timer settings</td>
+     <td class=""inline_sd_odd_cell"">Alarm, timer</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Included accessories</td>
+     <td class=""inline_sd_even_cell"">3 x Oven racks /upper</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Oven Performance</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Bake Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">2000 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Broil Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_odd_cell"">3600 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Convection Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">2000 W</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Certifications</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Approval certificates</td>
+     <td class=""inline_sd_even_cell"">CSA</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Dimensions & Weight</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Overall Appliance Dimensions (HxWxD) (in)</td>
+     <td class=""inline_sd_even_cell"">29 1/16'' x 26 3/4'' x 23 7/8''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Required cutout size (HxWxD) (in)</td>
+     <td class=""inline_sd_odd_cell"">28 1/4'' x 25 1/2'' x 24''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Product packaging dimensions (HxWxD) (in)</td>
+     <td class=""inline_sd_even_cell"">34'' x 34'' x 31''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Power Cord Length</td>
+     <td class=""inline_sd_odd_cell"">50''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Net weight (lbs)</td>
+     <td class=""inline_sd_even_cell"">153 lbs</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Gross weight (lbs)</td>
+     <td class=""inline_sd_odd_cell"">179 lbs</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Installation Requirements</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Watts (W)</td>
+     <td class=""inline_sd_even_cell"">5,800 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Current (A)</td>
+     <td class=""inline_sd_odd_cell"">30; 25 A</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Volts (V)</td>
+     <td class=""inline_sd_even_cell"">240/208 V</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Frequency (Hz)</td>
+     <td class=""inline_sd_odd_cell"">60 Hz</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Plug type</td>
+     <td class=""inline_sd_even_cell"">Fixed connection, No plug</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Energy source</td>
+     <td class=""inline_sd_odd_cell"">Electric</td>
+</tr>
+</table>
+","27"" Single Wall Oven 300 Series - Stainless Steel",,"27"" Single Wall Oven 300 Series - Stainless Steel",1,2,4,153,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,88,88,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,http://www.specsserver.com/CACHE/FRQWHLJFOVOA.JPG,"Download Product Information**http://www.specsserver.com/CACHE/FRLKEOKSSAAN.PDF",
+HBN3550UC,,Default,simple,"Large Appliance/Electric Ranges","Default Category",base,,"2016-10-08 06:34:43",,BOSCH,"
+            <ul>
+ <li>Key Features</li>
+ <blockquote>
+ <li>Large Capacity at 4.2 Cu.Ft.</li>
+ </blockquote>
+ <blockquote>
+ <li>EcoClean 2-Hour Self-Clean Cycle</li>
+ </blockquote>
+ <blockquote>
+ <li>Recessed Broil Element for Increased Capacity and Safety</li>
+ </blockquote>
+ <li>Design</li>
+ <blockquote>
+ <li>Contemporary Stainless Steel Design</li>
+ </blockquote>
+ <blockquote>
+ <li>ClearTouch(R) Glass Control</li>
+ </blockquote>
+ <blockquote>
+ <li>Flush-to-Cabinet Design</li>
+ </blockquote>
+ <blockquote>
+ <li>Dial Controls - Direct Access to Cooking Modes</li>
+ </blockquote>
+ <li>Performance</li>
+ <blockquote>
+ <li>10 Cooking Modes for Convenient Every Day Cooking</li>
+ </blockquote>
+ <blockquote>
+ <li>Convection Cooking with Bake, Broil and Roast in Upper Oven</li>
+ </blockquote>
+ <blockquote>
+ <li>Thermal Cooking with Bake, Broil and Roast in Lower Oven</li>
+ </blockquote>
+ <li>Efficiency</li>
+ <blockquote>
+ <li>EcoClean 2-Hour Self-Clean Cycle</li>
+ </blockquote>
+ <li>Convenience</li>
+ <blockquote>
+ <li>Amber Colored Display</li>
+ </blockquote>
+ <blockquote>
+ <li>Timer with Cook Time Function</li>
+ </blockquote>
+ <blockquote>
+ <li>Extra Large Door Window for Easy Monitoring of Cooking</li>
+ </blockquote>
+ <blockquote>
+ <li>High Quality Self-cleaning Rack Supports</li>
+ </blockquote>
+ <blockquote>
+ <li>Preheat Monitor Shows Progress of Preheat Cycle</li>
+ </blockquote>
+ <li>Capacity</li>
+ <blockquote>
+ <li>Large Capacity at 4.2 Cu.Ft.</li>
+ </blockquote>
+ <blockquote>
+ <li>Double Oven for More Capacity and Cooking Flexibility</li>
+ </blockquote>
+ <blockquote>
+ <li>Double Oven for More Capacity and Cooking Flexibility</li>
+ </blockquote>
+ <blockquote>
+ <li>Recessed Broil Element for Increased Capacity and Safety</li>
+ </blockquote>
+ <blockquote>
+ <li>Hidden Bake Element for Increased Capacity</li>
+ </blockquote>
+</ul>
+         ","<table  class=""inline_sd_table"">
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Cooking method primary cavity</td>
+     <td class=""inline_sd_even_cell"">Convection Bake, Convection Broil, Convection Roast, Conventional heat, Dough proving setting, Half width variable grill, Intensive hot air, Pizza setting, Top heating, 1/3 bottom heat., warming</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Cooking method secondary cavity</td>
+     <td class=""inline_sd_odd_cell"">Top/bottom heating, Top heating, 1/3 bottom heat., Variable small-area grill, Warming</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Cleaning system - primary cavity</td>
+     <td class=""inline_sd_even_cell"">, Self Clean</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Number of interior lights</td>
+     <td class=""inline_sd_odd_cell"">1</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Included accessories</td>
+     <td class=""inline_sd_even_cell"">3 x Oven racks /upper, 2 x Oven racks /lower</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Oven Performance</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Bake Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">2,000 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Broil Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_odd_cell"">3,600 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Convection Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">2,000 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Bake Element Wattages secondary cavity (W)</td>
+     <td class=""inline_sd_odd_cell"">2,000 kW</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Broil Element Wattages secondary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">3,600 W</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Certifications</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Approval certificates</td>
+     <td class=""inline_sd_even_cell"">CSA</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Installation Requirements</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Watts (W)</td>
+     <td class=""inline_sd_even_cell"">9,200 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Current (A)</td>
+     <td class=""inline_sd_odd_cell"">40 A</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Volts (V)</td>
+     <td class=""inline_sd_even_cell"">240/208 V</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Frequency (Hz)</td>
+     <td class=""inline_sd_odd_cell"">60 Hz</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Plug type</td>
+     <td class=""inline_sd_even_cell"">Fixed connection, No plug</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Energy source</td>
+     <td class=""inline_sd_odd_cell"">Electric</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Dimensions & Weight</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Overall appliance dimensions (HxWxD) (in)</td>
+     <td class=""inline_sd_even_cell"">51 3/4'' x 26 3/4'' x 23 7/8''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Required cutout size (HxWxD) (in)</td>
+     <td class=""inline_sd_odd_cell"">51 1/8'' x 25 1/2'' x 24''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Product packaging dimensions (HxWxD) (in)</td>
+     <td class=""inline_sd_even_cell"">56 3/4'' x 34'' x 31''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Power Cord Length</td>
+     <td class=""inline_sd_odd_cell"">50</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Net weight (lbs)</td>
+     <td class=""inline_sd_even_cell"">281 lbs</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Gross weight (lbs)</td>
+     <td class=""inline_sd_odd_cell"">315 lbs</td>
+</tr>
+</table>
+","27"" Double Wall Oven 300 Series - Stainless Steel",,"27"" Double Wall Oven 300 Series - Stainless Steel",1,2,4,281,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,88,88,http://www.specsserver.com/CACHE/FRKCIVMVUTLW.JPG,http://www.specsserver.com/CACHE/FRKCIVMVUTLW.JPG,http://www.specsserver.com/CACHE/FRKCIVMVUTLW.JPG,http://www.specsserver.com/CACHE/FRKCIVMVUTLW.JPG,http://www.specsserver.com/CACHE/FRKCIVMVUTLW.JPG,"Download Product Information**http://www.specsserver.com/CACHE/FRWJGCXUXRCT.PDF",
+HBN5450UC,,Default,simple,"Large Appliance/Electric Ranges","Default Category",base,,"2016-10-08 06:34:43",,BOSCH,"
+            <ul>
+ <li>Key Features</li>
+ <blockquote>
+ <li>Large Capacity at 4.2 Cu.Ft.</li>
+ </blockquote>
+ <blockquote>
+ <li>Fast Preheat Reduces Preheat Time to around 7 Minutes</li>
+ </blockquote>
+ <blockquote>
+ <li>Meat Probe Takes Guesswork out of Cooking</li>
+ </blockquote>
+ <blockquote>
+ <li>Recipe Mode Provides 30 Pre-Programmed Auto Settings</li>
+ </blockquote>
+ <li>Design</li>
+ <blockquote>
+ <li>Contemporary Stainless Steel Design</li>
+ </blockquote>
+ <blockquote>
+ <li>ClearTouch(R) Glass Control</li>
+ </blockquote>
+ <blockquote>
+ <li>Flush-to-Cabinet Design</li>
+ </blockquote>
+ <blockquote>
+ <li>Retractable Controls for Sleek and Easy to Clean Design</li>
+ </blockquote>
+ <li>Performance</li>
+ <blockquote>
+ <li>14 Specialized Cooking Modes - Gourmet Cooking Made Easy</li>
+ </blockquote>
+ <blockquote>
+ <li>Fast Preheat Reduces Preheat Time to around 7 Minutes</li>
+ </blockquote>
+ <blockquote>
+ <li>Genuine European Convection With ACS</li>
+ </blockquote>
+ <blockquote>
+ <li>Speed Convection Saves up to 30% Time</li>
+ </blockquote>
+ <blockquote>
+ <li>Custom Cooking Modes: Pizza, Pie, Warm and Proof</li>
+ </blockquote>
+ <blockquote>
+ <li>Meat Probe Takes Guesswork out of Cooking</li>
+ </blockquote>
+ <blockquote>
+ <li>Recipe Mode Provides 30 Pre-Programmed Auto Settings</li>
+ </blockquote>
+ <li>Efficiency</li>
+ <blockquote>
+ <li>EcoClean 2-Hour Self-Clean Cycle</li>
+ </blockquote>
+ <li>Convenience</li>
+ <blockquote>
+ <li>Amber Colored Full Text Display</li>
+ </blockquote>
+ <blockquote>
+ <li>Timer with Cook Time and Delay Start Function</li>
+ </blockquote>
+ <blockquote>
+ <li>Extra Large Door Window for Easy Monitoring of Cooking</li>
+ </blockquote>
+ <blockquote>
+ <li>High Quality Self-cleaning Rack Supports</li>
+ </blockquote>
+ <blockquote>
+ <li>Star-K certified</li>
+ </blockquote>
+ <blockquote>
+ <li>Two Oven Lights to Better Monitor Cooking Progress</li>
+ </blockquote>
+ <li>Capacity</li>
+ <blockquote>
+ <li>Large Capacity at 4.2 Cu.Ft.</li>
+ </blockquote>
+ <blockquote>
+ <li>Double Oven for More Capacity and Cooking Flexibility</li>
+ </blockquote>
+ <blockquote>
+ <li>Recessed Broil Element for Increased Capacity and Safety</li>
+ </blockquote>
+ <blockquote>
+ <li>Hidden Bake Element for Increased Capacity</li>
+ </blockquote>
+</ul>
+         ","<table  class=""inline_sd_table"">
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">FEAT_OVEN</td>
+     <td class=""inline_sd_even_cell"">, ,</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">General Properties</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Cooking method primary cavity</td>
+     <td class=""inline_sd_even_cell"">3D hot air, Convection Bake, Convection Broil, Convection Roast, Conventional heat, Dehydrate, Dough proving setting, Half width variable grill, Hot Air, Hot air & bottom heat, Pizza setting, Sabbath function, Top heating, 1/3 bottom heat., warming</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Cleaning system - primary cavity</td>
+     <td class=""inline_sd_odd_cell"">Self Clean</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Interior Lights - primary cavity</td>
+     <td class=""inline_sd_even_cell"">2</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Timer settings</td>
+     <td class=""inline_sd_odd_cell"">Alarm, timer</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Included accessories</td>
+     <td class=""inline_sd_even_cell"">3 x Oven racks /upper, 1 x Broiler pan /upper, 1 x Temperature probe /upper</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Oven Performance</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Bake Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">2000 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Broil Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_odd_cell"">3600 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Convection Element Wattages primary cavity (W)</td>
+     <td class=""inline_sd_even_cell"">2000 W</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Certifications</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Approval certificates</td>
+     <td class=""inline_sd_even_cell"">CSA</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Dimensions & Weight</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Overall Appliance Dimensions (HxWxD) (in)</td>
+     <td class=""inline_sd_even_cell"">29 1/16'' x 26 3/4'' x 23 7/8''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Required cutout size (HxWxD) (in)</td>
+     <td class=""inline_sd_odd_cell"">28 1/4'' x 25 1/2'' x 24''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Product packaging dimensions (HxWxD) (in)</td>
+     <td class=""inline_sd_even_cell"">34'' x 34'' x 31''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Power Cord Length</td>
+     <td class=""inline_sd_odd_cell"">50''</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Net weight (lbs)</td>
+     <td class=""inline_sd_even_cell"">153 lbs</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Gross weight (lbs)</td>
+     <td class=""inline_sd_odd_cell"">179 lbs</td>
+</tr>
+<tr class=""inline_sd_row""><td class=""inline_sd_header"" colspan=""2"">Installation Requirements</td></tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Watts (W)</td>
+     <td class=""inline_sd_even_cell"">7,300 W</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Current (A)</td>
+     <td class=""inline_sd_odd_cell"">30 A</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Volts (V)</td>
+     <td class=""inline_sd_even_cell"">240/208 V</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Frequency (Hz)</td>
+     <td class=""inline_sd_odd_cell"">60 Hz</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_even_cell"">Plug type</td>
+     <td class=""inline_sd_even_cell"">Fixed connection, No plug</td>
+</tr>
+<tr class=""inline_sd_cell_row"">
+     <td class=""inline_sd_odd_cell"">Energy source</td>
+     <td class=""inline_sd_odd_cell"">Electric</td>
+</tr>
+</table>
+","27"" Single Wall Oven 500 Series - Stainless Steel",,"27"" Single Wall Oven 500 Series - Stainless Steel",1,2,4,153,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,88,88,http://www.specsserver.com/CACHE/FRJANOULBQBJ.JPG,http://www.specsserver.com/CACHE/FRJANOULBQBJ.JPG,http://www.specsserver.com/CACHE/FRJANOULBQBJ.JPG,http://www.specsserver.com/CACHE/FRJANOULBQBJ.JPG,http://www.specsserver.com/CACHE/FRJANOULBQBJ.JPG,"Download Product Information**http://www.specsserver.com/CACHE/FRRBDCWDRQDK.PDF",

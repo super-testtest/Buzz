@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Bootstrap 3 Dynamic Tabs</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .bs-example{
+        margin: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#sectionA">Popular Categories</a></li>
+        <li><a data-toggle="tab" href="#sectionB">Hot Deals</a></li>
+        <!-- <li><a data-toggle="tab" href="#sectionC">Holiday Savings</a></li> -->
+    </ul>
+    <div id="bridge-hot-product"></div>
+    <div class="tab-content">
+        <div id="sectionA" class="tab-pane fade in active">
+            <div>
+                <ul class="cata-products">
+                    <li><a href="{{config path="web/unsecure/base_url"}}"/>
+                    <img src="{{config path="web/unsecure/base_url"}}skin/frontend/rwd/default/images/media/products/photography.jpg" width="200px" height="133px" /></a>
+                    <h3><a href="{{config path="web/unsecure/base_url"}}">Toys And Games</a></h3>
+                    <div class="hot-pro-des">Dictum, Etiam, Pellentesque, Cursus</div>
+                    <div class="hot-pro-des"><a href="{{config path="web/unsecure/base_url"}}young-adults-children/toys-games.html">See All Products</a></div>
+                    </li>
+                    <li>
+                        <a href="{{config path="web/unsecure/base_url"}}"/>
+                    <img src="{{config path="web/unsecure/base_url"}}skin/frontend/rwd/default/images/media/products/photography.jpg" width="200px" height="133px" /></a>
+                    <h3><a href="{{config path="web/unsecure/base_url"}}">Radios</a></h3>
+                    <div class="hot-pro-des">Dictum, Etiam, Pellentesque, Cursus</div>
+                    <div class="hot-pro-des"><a href="{{config path="web/unsecure/base_url"}}electronics/radios.html">See All Products</a></div>
+                    </li>
+                    <li>
+                        <a href="{{config path="web/unsecure/base_url"}}"/>
+                    <img src="{{config path="web/unsecure/base_url"}}skin/frontend/rwd/default/images/media/products/photography.jpg" width="200px" height="133px" /></a>
+                    <h3><a href="{{config path="web/unsecure/base_url"}}">Appliances</a></h3>
+                    <div class="hot-pro-des">Dictum, Etiam, Pellentesque, Cursus</div>
+                    <div class="hot-pro-des"><a href="{{config path="web/unsecure/base_url"}}appliances.html">See All Products</a></div>
+                    </li>
+                    <li>
+                        <a href="{{config path="web/unsecure/base_url"}}"/>
+                    <img src="{{config path="web/unsecure/base_url"}}skin/frontend/rwd/default/images/media/products/photography.jpg" width="200px" height="133px" /></a>
+                    <h3><a href="{{config path="web/unsecure/base_url"}}">Home &amp; Kitchen</a></h3>
+                    <div class="hot-pro-des">Dictum, Etiam, Pellentesque, Cursus</div>
+                    <div class="hot-pro-des"><a href="{{config path="web/unsecure/base_url"}}home-kitchen.html">See All Products</a></div>
+                    </li>
+                    <li>
+                        <a href="{{config path="web/unsecure/base_url"}}"/>
+                    <img src="{{config path="web/unsecure/base_url"}}skin/frontend/rwd/default/images/media/products/photography.jpg" width="200px" height="133px" /></a>
+                    <h3><a href="{{config path="web/unsecure/base_url"}}">Tools &amp; Home Improvement</a></h3>
+                    <div class="hot-pro-des">Dictum, Etiam, Pellentesque, Cursus</div>
+                    <div class="hot-pro-des"><a href="{{config path="web/unsecure/base_url"}}electronics/tools-home-improvement.html">See All Products</a></div>
+                    </li>
+                    <li>
+                        <a href="{{config path="web/unsecure/base_url"}}"/>
+                    <img src="{{config path="web/unsecure/base_url"}}skin/frontend/rwd/default/images/media/products/photography.jpg" width="200px" height="133px" /></a>
+                    <h3><a href="{{config path="web/unsecure/base_url"}}">Security &amp; Surveillance</a></h3>
+                    <div class="hot-pro-des">Dictum, Etiam, Pellentesque, Cursus</div>
+                    <div class="hot-pro-des"><a href="{{config path="web/unsecure/base_url"}}electronics/security-surveillance.html">See All Products</a></div>
+                    </li>
+                    <li>
+                        <a href="{{config path="web/unsecure/base_url"}}"/>
+                    <img src="{{config path="web/unsecure/base_url"}}skin/frontend/rwd/default/images/media/products/photography.jpg" width="200px" height="133px" /></a>
+                    <h3><a href="{{config path="web/unsecure/base_url"}}">Mp3 Players &amp; Accessories</a></h3>
+                    <div class="hot-pro-des">Dictum, Etiam, Pellentesque, Cursus</div>
+                    <div class="hot-pro-des"><a href="{{config path="web/unsecure/base_url"}}electronics/mp3-players-accessories.html">See All Products</a></div>
+                    </li>
+                    <li>
+                        <a href="{{config path="web/unsecure/base_url"}}"/>
+                    <img src="{{config path="web/unsecure/base_url"}}skin/frontend/rwd/default/images/media/products/photography.jpg" width="200px" height="133px" /></a>
+                    <h3><a href="{{config path="web/unsecure/base_url"}}">Saftey</a></h3>
+                    <div class="hot-pro-des">Dictum, Etiam, Pellentesque, Cursus</div>
+                    <div class="hot-pro-des"><a href="{{config path="web/unsecure/base_url"}}health-personal-care/safety.html">See All Products</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="sectionB" class="tab-pane fade">
+            <div>
+                <ul id="hot-deals" class="cata-products">
+                <li><a href="{{config path="web/unsecure/base_url"}}wireless-bluetooth-speaker-with-aux.html"> <img src="http://52.5.56.47/public/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/s/csbt-310-blk.jpg" alt="" width="200px" height="133px" /></a>
+                <h3><a href="{{config path="web/unsecure/base_url"}}wireless-bluetooth-speaker-with-aux.html">WIRELESS BLUETOOTH SPEAKER WITH AUX</a></h3>
+                <div class="hot-pro-des">$35.00</div>
+                </li>
+                <li><a href="{{config path="web/unsecure/base_url"}}portable-stero-cassette-player-recorder.html"> <img src="http://52.5.56.47/public/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/x/cxc350_1.jpg" alt="" width="200px" height="133px" /></a>
+                <h3><a href="{{config path="web/unsecure/base_url"}}portable-stero-cassette-player-recorder.html">PORTABLE STERO CASSETTE PLAYER/RECORDER</a></h3>
+                <div class="hot-pro-des">$29.99</div>
+                </li>
+                <li><a href="{{config path="web/unsecure/base_url"}}mobile-bluetooth-speaker.html"> <img src="http://52.5.56.47/public/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/imw355-red.jpg" alt="" width="200px" height="133px" /></a>
+                <h3><a href="{{config path="web/unsecure/base_url"}}mobile-bluetooth-speaker.html">MOBILE BLUETOOTH SPEAKER</a></h3>
+                <div class="hot-pro-des">$49.99</div>
+                </li>
+                <li>
+                    <a href="{{config path="web/unsecure/base_url"}}soft-serve-ice-cream-machine.html"> 
+                        <img src="http://52.5.56.47/public/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/c/ic13886wb.jpg" alt="" width="200px" height="133px" />
+                    </a>
+                        <h3>
+                            <a href="{{config path="web/unsecure/base_url"}}soft-serve-ice-cream-machine.html">SOFT SERVE ICE CREAM MACHINE</a>
+                        </h3>
+                    <div class="hot-pro-des">$39.99</div>
+                </li>
+                <li>
+                    <a href="{{config path="web/unsecure/base_url"}}powerblend-600-watts-blender.html"> 
+                        <img src="http://52.5.56.47/public/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/p/spb-10ch.jpg" alt="" width="200px" height="133px" />
+                    </a>
+                <h3><a href="{{config path="web/unsecure/base_url"}}powerblend-600-watts-blender.html">POWERBLEND 600 WATTS BLENDER</a></h3>
+                <div class="hot-pro-des">$79.99</div>
+                </li>
+                <li><a href="{{config path="> <img src="http://52.5.56.47/public/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/5/0/50127p.jpg" alt="" width="200px" height="133px" /></a>
+                <h3><a href="{{config path="web/unsecure/base_url"}}proctor-silex-50127-10-speed-blender.html">Proctor Silex 50127 10-Speed Blender</a></h3>
+                <div class="hot-pro-des">$34.99</div>
+                </li>
+                <li><a href="{{config path="web/unsecure/base_url"}}wave-crusher-8-speed-blender.html"> <img src="http://52.5.56.47/public/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/5/8/58148.jpg" alt="" width="200px" height="133px" /></a>
+                <h3><a href="{{config path="web/unsecure/base_url"}}wave-crusher-8-speed-blender.html">WAVE CRUSHER 8 SPEED BLENDER</a></h3>
+                <div class="hot-pro-des">$49.99</div>
+                </li>
+                <li><a href="{{config path="web/unsecure/base_url"}}juice-extractor.html"> <img src="http://52.5.56.47/public/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/5/75500.jpg" alt="" width="200px" height="133px" /></a>
+                <h3><a href="{{config path="web/unsecure/base_url"}}juice-extractor.html">JUICE EXTRACTOR</a></h3>
+                <div class="hot-pro-des">$39.99</div>
+                </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div id="sectionC" class="tab-pane fade">
+            <div></div>
+        </div> -->
+    </div>
+</div>
+</body>
+</html>                                     

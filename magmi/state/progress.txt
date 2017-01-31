@@ -1,0 +1,49 @@
+title:MAGMI by dweeves - version:0.7.22
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+startup:Import Profile:default
+startup:Import Mode:create
+step:step:%
+startup:Attributeset update is enabled.
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+startup:Performing Datasource Lookup...
+lookup:1:0.00092411041259766
+startup:Found 1 records, took 0.00092411041259766 sec
+info:Initialized attribute_set_infos!
+columns:48
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:store,type,page_layout
+startup:Ajusted processed columns:52
+itime:1 - 0.00079894065856934 - 0.00079894065856934
+dbtime:0 - 0 - 0 - 0
+itime:1 - 4.1848518848419 - 4.1839640140533
+dbtime:36 - 0.70168137550354 - 0.70168137550354 - 36
+info:Skus imported OK:1/1
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+end:Import Ended
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Product Prices index was rebuilt successfully in 00:00:51<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 52.23 secs
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing catalog_product_flat....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Product Flat Data index was rebuilt successfully in 00:00:59<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 60.07 secs
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing catalog_category_flat....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Category Flat Data index was rebuilt successfully in 00:00:04<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 5.55 secs
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing catalog_category_product....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Category Products index was rebuilt successfully in 00:00:20<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 21.47 secs
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing cataloginventory_stock....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Stock Status index was rebuilt successfully in 00:00:07<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 8.89 secs
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing catalog_url....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Catalog URL Rewrites index was rebuilt successfully in 00:14:30<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 874.66 secs
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing catalogsearch_fulltext....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Search Index index was rebuilt successfully in 00:01:42<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 120.44 secs
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing tag_summary....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Tag Aggregation Data index was rebuilt successfully in 00:00:02<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 3.07 secs
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+end:Import Ended

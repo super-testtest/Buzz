@@ -1,0 +1,322 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/**
+ * Product view template
+ *
+ * @see Mage_Catalog_Block_Product_View
+ * @see Mage_Review_Block_Product_View
+ */
+?>
+
+<?php $_helper = $this->helper('catalog/output'); ?>
+<?php $_product = $this->getProduct(); ?>
+
+<?php $largeApplianceID = '592'; ?>
+
+
+<script type="text/javascript">
+    var optionsPrice = new Product.OptionsPrice(<?php echo $this->getJsonConfig() ?>);
+</script>
+<div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+<div class="product-view">
+    <div class="product-essential">
+        <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
+            <?php echo $this->getBlockHtml('formkey') ?>
+            <div class="no-display">
+                <input type="hidden" name="product" value="<?php echo $_product->getId() ?>" />
+                <input type="hidden" name="related_product" id="related-products-field" value="" />
+            </div>
+
+            <div class="product-img-box">
+                <div class="product-name">
+                    <h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+                </div>
+                <?php echo $this->getChildHtml('media') ?>
+            </div>
+
+            <div class="product-shop"> <!-- Important -->
+                <div class="product-name">
+                    <span class="h1"><?php 
+echo $_helper->productAttribute($_product, $_product->getName(), 'name'); ?></span>
+                </div>
+
+                <?php echo $this->getChildHtml('alert_urls') ?>
+
+                <?php if ($_product->getShortDescription()):?>
+                    <div class="short-description">
+                        <div class="std"><?php  echo $_helper->productAttribute($_product, nl2br($_product->getDescription()), 'description'); 
+                            
+                     ?>
+                        </div>
+                    </div>
+                <?php endif;?>
+
+                <div class="extra-info">
+                <?php echo $this->getReviewsSummaryHtml($_product, 'default', true)?>
+                </div>
+                <?php echo $this->getChildHtml('other');?>
+
+                <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+                    <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
+                <?php endif;?>
+
+            </div>
+
+            <?php $cats = $_product->getCategoryIds(); ?>
+
+            <?php if(in_array($largeApplianceID, $cats)) : ?>
+                
+                <div class="add-to-cart-wrapper">
+                    <span style="font-size: 22px;font-family:'Baskerville';font-weight: bold;color: green;">For pricing and ordering information please call: 718-258-1200</span>
+                </div>
+
+            <?php else : ?>
+
+                <div class="add-to-cart-wrapper">
+                       
+                    <div id="main-product-price">
+                        <div class="price-info">
+                                <?php echo $this->getPriceHtml($_product); ?>
+                                <?php echo $this->getChildHtml('bundle_prices') ?>
+                                <?php echo $this->getTierPriceHtml() ?>
+                        </div>
+                    </div>
+                    
+
+                    <?php echo $this->getChildHtml('product_type_data') ?>
+                    <?php echo $this->getChildHtml('extrahint') ?>
+
+                    <?php if (!$this->hasOptions()):?>
+                        <div class="add-to-box">
+                            <?php if($_product->isSaleable()): ?>
+                                <?php echo $this->getChildHtml('addtocart') ?>
+                                <div class="extra-info">
+                                    <?php echo $this->getChildHtml('product_type_availability'); ?>
+                                </div>
+                                <?php if( $this->helper('wishlist')->isAllow() || $_compareUrl=$this->helper('catalog/product_compare')->getAddUrl($_product)): ?>
+                                    <span class="or"><?php echo $this->__('OR') ?></span>
+                                <?php endif; ?>
+                            <?php endif; ?>
+                            <?php echo $this->getChildHtml('addto') ?>
+                            <?php echo $this->getChildHtml('sharing') ?>
+                        </div>
+                        <?php echo $this->getChildHtml('extra_buttons') ?>
+                    <?php elseif (!$_product->isSaleable()): ?>
+                        <div class="add-to-box">
+                            <?php echo $this->getChildHtml('addto') ?>
+                            <?php echo $this->getChildHtml('sharing') ?>
+                        </div>
+                    <?php endif; ?>
+                </div>
+
+            <?php endif; ?>
+
+            <div class="clearer"></div>
+            <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+                <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
+            <?php endif;?>
+        </form>
+        <script type="text/javascript">
+        //<![CDATA[
+            var productAddToCartForm = new VarienForm('product_addtocart_form');
+            productAddToCartForm.submit = function(button, url) {
+                if (this.validator.validate()) {
+                    var form = this.form;
+                    var oldUrl = form.action;
+
+                    if (url) {
+                       form.action = url;
+                    }
+                    var e = null;
+                    try {
+                        this.form.submit();
+                    } catch (e) {
+                    }
+                    this.form.action = oldUrl;
+                    if (e) {
+                        throw e;
+                    }
+
+                    if (button && button != 'undefined') {
+                        button.disabled = true;
+                    }
+                }
+            }.bind(productAddToCartForm);
+
+            productAddToCartForm.submitLight = function(button, url){
+                if(this.validator) {
+                    var nv = Validation.methods;
+                    delete Validation.methods['required-entry'];
+                    delete Validation.methods['validate-one-required'];
+                    delete Validation.methods['validate-one-required-by-name'];
+                    // Remove custom datetime validators
+                    for (var methodName in Validation.methods) {
+                        if (methodName.match(/^validate-datetime-.*/i)) {
+                            delete Validation.methods[methodName];
+                        }
+                    }
+
+                    if (this.validator.validate()) {
+                        if (url) {
+                            this.form.action = url;
+                        }
+                        this.form.submit();
+                    }
+                    Object.extend(Validation.methods, nv);
+                }
+            }.bind(productAddToCartForm);
+        //]]>
+        </script>
+    </div>
+    <?php 
+        $videoUrl = $_product->getVideo();
+
+        if($videoUrl != ''){
+            if(strrpos($videoUrl, 'watch?v=')){
+                $videoUrl = str_replace('watch?v=', 'embed/', $videoUrl);
+            }
+            ?>
+                <div class="video-box box-collateral short-descpt">
+                    <h2><b><?php echo $this->__('Video') ?></b></h2>  
+                    <div class="box-collateral-content">
+                        <div class="video">
+
+                            <iframe src="<?php echo $videoUrl; ?>?wmode=opaque" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>     
+                        </div>
+                    </div>
+                </div>
+            <?php
+        }
+    ?>
+    <?php
+        $categoryIds = $_product->getCategoryIds();                              
+        $catid=Mage::getStoreConfig('tabs_option/tabs1/categoryid');
+        $overview=$this->helper('catalog/output')->productAttribute($_product, $_product->getShortDescription(), 'short_description');
+        $feature=Mage::getResourceModel('catalog/product')->getAttributeRawValue($_product->getId(), 'features');
+        //$pdfs=Mage::getResourceModel('catalog/product')->getAttributeRawValue($_product->getId(), 'pdfs');
+        $Specifications=Mage::getResourceModel('catalog/product')->getAttributeRawValue($_product->getId(), 'spectablehtml').Mage::getResourceModel('catalog/product')->getAttributeRawValue($_product->getId(), 'pdfs');
+
+         $pdf=Mage::getResourceModel('catalog/product')->getAttributeRawValue($_product->getId(), 'pdfs');
+        /* $tabtitle varible is used to display tab title and $value is used to display tabs Value. */
+        $tabtitle=array('Overview','Features','Specifications');
+        //print_r($tabtitle);exit;
+        $value=array($overview,$feature,$Specifications);
+
+        if($catid==$categoryIds[0])
+        {
+    ?>
+            <div class="product-collateral toggle-content tabs">
+                <dl id="collateral-tabs" class="collateral-tabs">
+                    <?php
+                                for($i=0;$i<=2;$i++)
+                                {
+                                    if(!empty($value[$i]))
+                                    {                
+                    ?>
+                                       <dt class="tab">
+                                            <span><?php echo $tabtitle[$i];?></span>
+                                        </dt>
+                                    <?php 
+                                            if($i==2)
+                                            {
+                                    ?>
+                                               <dd class="tab-container">
+                                                  <div class="tab-content">
+                                                        <?php 
+                                                        if(!empty($pdf))
+                                                        {
+                                                            $arr=explode("||",$pdf);
+                                                            $m=implode("**",$arr);
+                                                            $c=explode("**",$m);
+                                                            $count=sizeof($c);
+                                                            for($a=0;$a<$count;$a++)
+                                                            {
+                                                                if($a%2==1)
+                                                                {
+                                                                    $arr1[]=$c[$a];
+                                                                }
+                                                                else
+                                                                {
+                                                                    $arr2[]=$c[$a];
+                                                                }
+                                                            }
+                                                            $arr1count=sizeof($arr1);
+
+                                                        
+                                                            
+                                                            for($b=0;$b<$arr1count;$b++)
+                                                            {
+                                                            ?>
+                                                              <div class="pdf"><a class="pdflinks" href="<?php echo $arr1[$b];?>" target="_blank"><?php echo $arr2[$b]; ?></a></div> 
+                                                            <?php
+                                                            }
+                                                         }   
+                                                            ?> 
+                                                           
+                                                            <?php echo Mage::getResourceModel('catalog/product')->getAttributeRawValue($_product->getId(), 'spectablehtml')  ?>   
+                                                    </div>
+                                               </dd>
+                                      <?php 
+                                            }
+                                            else
+                                            {
+                                        ?>
+                                                <dd class="tab-container">
+                                                  <div class="tab-content"><?php echo $value[$i];?></div>
+                                               </dd>
+                                        <?php 
+                                            }         
+                                    }
+                                }
+                                   
+                    ?>   
+                </dl>   
+            </div>
+    <?php }
+
+        else
+        {
+     ?>
+            <div class="short-descpt">
+            <h2><b><?php echo $this->__('Additional Info')?></b></h2>
+            <?php if ($_product->getShortDescription()):?>
+                        <div class="short-description">
+                            <div class="std"><?php echo $_helper->productAttribute($_product, nl2br($_product->getshortDescription()), 'short_description') ?>
+                            </div>
+                        </div>
+
+                <?php endif;?>
+            </div>
+    <?php } ?>  
+
+    <?php echo $this->getChildHtml('related_products') ?>
+
+
+    <?php echo $this->getChildHtml('upsell_products') ?>
+    <?php echo $this->getChildHtml('product_additional_data') ?>
+
+</div>

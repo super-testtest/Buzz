@@ -1,0 +1,658 @@
+2016-08-30T10:03:41+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =?utf-8?B?QXJqdW4ga2FuYW5p?= <arjun@tasolglobal.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =?utf-8?B?V2VsY29tZSwgQXJqdW4ga2FuYW5pIQ==?=
+                )
+
+            [From] => Array
+                (
+                    [0] => The Buzz <cs@thebuzzexperience.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => cs@thebuzzexperience.com
+    [_to:protected] => Array
+        (
+            [0] => arjun@tasolglobal.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [arjun@tasolglobal.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =?utf-8?B?V2VsY29tZSwgQXJqdW4ga2FuYW5pIQ==?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => 
+
+
+
+<body style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<div style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+    <td align="center" valign="top" style="padding:20px 0 20px 0">
+        <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="10" border="0" width="650" style="border:1px solid #E0E0E0;">
+         <tr>
+    <td><table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#fff" width="650px">
+        <tr>
+          <td><a href="http://192.168.5.129/buzzelectronicsdev/"><img src="http://192.168.5.129/buzzelectronicsdev/skin/frontend/rwd/default/images/logo_email.gif" alt="The Buzz Electronics" style="margin-bottom:10px;" border="0"/></a></td>
+          <!--width="270px" height="130px"-->
+          <td style="font-size:15px;line-height:1.25;"><span>Orders: 1-844-490-BUZZ</span><br/>
+            <span>Customer Service: 1-866-666-2899</span></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#fff" height="15px"></td>
+  </tr>
+  <tr>
+    <td style="border-bottom:2px solid black;"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#be000d" height="40px"><h1 style="color:#fff;text-align:center;text-transform:uppercase;font-size:22px;">Welcome To The Buzz</h1></td>
+  </tr>
+
+            <tr>
+                <td valign="top" style="padding:20px;">
+                  <h1 style="font-size:22px; font-weight:normal; line-height:22px; margin:0 0 11px 0;">Dear Arjun kanani,</h1>
+                            <p style="font-size:12px; line-height:16px; margin:0 0 16px 0;">Welcome to The Buzz Electronics. To log in when visiting our site just click <a href="http://192.168.5.129/buzzelectronicsdev/customer/account/" style="color:#1E7EC8;">Login</a> or <a href="http://192.168.5.129/buzzelectronicsdev/customer/account/" style="color:#1E7EC8;">My Account</a> at the top of every page, and then enter your e-mail address and password.</p>
+                            <p style="border:1px solid #E0E0E0; font-size:12px; line-height:16px; margin:0; padding:13px 18px; background:#f9f9f9;">
+                                Use the following values when prompted to log in:<br/>
+                                <strong>E-mail</strong>: arjun@tasolglobal.com<br/>
+                            <p style="font-size:12px; line-height:16px; margin:0 0 8px 0;">When you log in to your account, you will be able to do the following:</p>
+                            <ul style="font-size:12px; line-height:16px; margin:0 0 16px 0; padding:0;">
+                                <li style="list-style:none inside; padding:0 0 0 10px;">&ndash; Proceed through checkout faster when making a purchase</li>
+                                <li style="list-style:none inside; padding:0 0 0 10px;">&ndash; Check the status of orders</li>
+                                <li style="list-style:none inside; padding:0 0 0 10px;">&ndash; View past orders</li>
+                                <li style="list-style:none inside; padding:0 0 0 10px;">&ndash; Make changes to your account information</li>
+                                <li style="list-style:none inside; padding:0 0 0 10px;">&ndash; Change your password</li>
+                                <li style="list-style:none inside; padding:0 0 0 10px;">&ndash; Store alternative addresses (for shipping to multiple family members and friends!)</li>
+                            </ul>
+                            <p style="font-size:12px; line-height:16px; margin:0;">If you have any questions about your account or any other matter, please feel free to contact us at <a href="mailto:cs@thebuzzexperience.com" style="color:#1E7EC8;">cs@thebuzzexperience.com</a> or by phone at .</p>
+                        </td>
+                    </tr>
+            <tr>
+                <td bgcolor="#EAEAEA" align="center" style="background:#EAEAEA; text-align:center;"><center><p style="font-size:12px; margin:0;">Thank you, <strong>The Buzz Electronics</strong></p></center></td>
+            </tr>
+           <tr>
+    <td bgcolor="#be000d" height="40px" style="border-top:2px solid black;border-bottom:2px solid black;">
+      <p style="color:#fff;text-align:center;font-size:13px;">Sales: 1.844.490.BUZZ | Flatbush Store: 718.258.1200 | Boro Park Store: 718.399.4900</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#434343" height="50px"><p style="color:#ccc;text-align:center;font-size:14px;padding:40px;">© 2015 Buzz Electronics. All Rights Reserved.</p></td>
+  </tr>
+        </table>
+    </td>
+</tr>
+</table>
+</div>
+</body>
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2016-08-30T10:03:41+00:00 DEBUG (7): Getting Amazon SES Transport
+2016-08-30T10:43:23+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =?utf-8?B?VGhlIEJ1eno=?= <cs@thebuzzexperience.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =?utf-8?B?UGF5bWVudCBUcmFuc2FjdGlvbiBGYWlsZWQgUmVtaW5kZXI=?=
+                )
+
+            [From] => Array
+                (
+                    [0] => The Buzz <cs@thebuzzexperience.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => cs@thebuzzexperience.com
+    [_to:protected] => Array
+        (
+            [0] => cs@thebuzzexperience.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [cs@thebuzzexperience.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =?utf-8?B?UGF5bWVudCBUcmFuc2FjdGlvbiBGYWlsZWQgUmVtaW5kZXI=?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => 
+
+
+
+
+<body style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<div style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+    <td align="center" valign="top" style="padding:20px 0 20px 0">
+        <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="10" border="0" width="650" style="border:1px solid #E0E0E0;">
+         <tr>
+    <td><table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#fff" width="650px">
+        <tr>
+          <td><a href="http://192.168.5.129/buzzelectronicsdev/"><img src="http://192.168.5.129/buzzelectronicsdev/skin/frontend/rwd/default/images/logo_email.gif" alt="The Buzz Electronics" style="margin-bottom:10px;" border="0"/></a></td>
+          <!--width="270px" height="130px"-->
+          <td style="font-size:15px;line-height:1.25;"><span>Orders: 1-844-490-BUZZ</span><br/>
+            <span>Customer Service: 1-866-666-2899</span></td>
+        </tr>
+      </table></td>
+  </tr>
+  
+  <tr>
+    <td style="border-bottom:2px solid black;"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#be000d" height="40px"><h1 style="color:#fff;text-align:center;text-transform:uppercase;font-size:22px;">Welcome To The Buzz</h1></td>
+  </tr>
+
+            <tr>
+                <td valign="top" style="padding:20px;">
+                 
+Payment transaction failed<p>
+                    <b>Reason</b><br />
+                    Payment authorization transaction has been declined:  Declined for CVV failure
+                </p>
+                <p>
+                    <b>Checkout Type</b><br />
+                    onepage
+                </p>
+                <p>
+                    <b>Customer:</b><br />
+                    <a href="mailto:arjun@tasolglobal.com">Arjun kanani</a> &lt;arjun@tasolglobal.com&gt;
+                </p>
+                <p>
+                    <b>Items</b><br />
+                    COBY CVR-20 USB DIGITAL VOICE RECORDER WITH BUILT-IN MIC VOICE RECORDER  x 1  USD 29.99<br />
+
+                </p>
+                <p>
+                    <b>Total:</b><br />
+                    USD 40.5
+                </p>
+                <p>
+                    <b>Billing Address:</b><br />
+                    Arjun kanani<br/>
+
+sdfsdfdsf<br />
+
+
+
+fsdfad,  Colorado, 79879879<br/>
+United States<br/>
+T: 78979898
+
+
+                </p>
+                <p>
+                    <b>Shipping Address:</b><br />
+                    Arjun kanani<br/>
+
+sdfsdfdsf<br />
+
+
+
+fsdfad,  Colorado, 79879879<br/>
+United States<br/>
+T: 78979898
+
+
+                </p>
+                <p>
+                    <b>Shipping Method:</b><br />
+                    United Parcel Service
+                </p>
+                <p>
+                    <b>Payment Method:</b><br />
+                    Credit Card
+                </p>
+                <p>
+                    <b>Date & Time:</b><br />
+                    Aug 30, 2016 3:43:22 AM
+                </p>
+                </td>
+           <tr>
+    <td bgcolor="#be000d" height="40px" style="border-top:2px solid black;border-bottom:2px solid black;">
+      <p style="color:#fff;text-align:center;font-size:13px;">Sales: 1.844.490.BUZZ | Flatbush Store: 718.258.1200 | Boro Park Store: 718.399.4900</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#434343" height="50px"><p style="color:#ccc;text-align:center;font-size:14px;padding:40px;">© 2015 Buzz Electronics. All Rights Reserved.</p></td>
+  </tr>
+        </table>
+    </td>
+</tr>
+</table>
+</div>
+</body>
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2016-08-30T10:43:23+00:00 DEBUG (7): Getting Amazon SES Transport
+2016-08-30T10:43:38+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =?utf-8?B?VGhlIEJ1eno=?= <cs@thebuzzexperience.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =?utf-8?B?UGF5bWVudCBUcmFuc2FjdGlvbiBGYWlsZWQgUmVtaW5kZXI=?=
+                )
+
+            [From] => Array
+                (
+                    [0] => The Buzz <cs@thebuzzexperience.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => cs@thebuzzexperience.com
+    [_to:protected] => Array
+        (
+            [0] => cs@thebuzzexperience.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [cs@thebuzzexperience.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =?utf-8?B?UGF5bWVudCBUcmFuc2FjdGlvbiBGYWlsZWQgUmVtaW5kZXI=?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => 
+
+
+
+
+<body style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<div style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+    <td align="center" valign="top" style="padding:20px 0 20px 0">
+        <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="10" border="0" width="650" style="border:1px solid #E0E0E0;">
+         <tr>
+    <td><table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#fff" width="650px">
+        <tr>
+          <td><a href="http://192.168.5.129/buzzelectronicsdev/"><img src="http://192.168.5.129/buzzelectronicsdev/skin/frontend/rwd/default/images/logo_email.gif" alt="The Buzz Electronics" style="margin-bottom:10px;" border="0"/></a></td>
+          <!--width="270px" height="130px"-->
+          <td style="font-size:15px;line-height:1.25;"><span>Orders: 1-844-490-BUZZ</span><br/>
+            <span>Customer Service: 1-866-666-2899</span></td>
+        </tr>
+      </table></td>
+  </tr>
+  
+  <tr>
+    <td style="border-bottom:2px solid black;"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#be000d" height="40px"><h1 style="color:#fff;text-align:center;text-transform:uppercase;font-size:22px;">Welcome To The Buzz</h1></td>
+  </tr>
+
+            <tr>
+                <td valign="top" style="padding:20px;">
+                 
+Payment transaction failed<p>
+                    <b>Reason</b><br />
+                    Payment authorization transaction has been declined:  Declined for CVV failure
+                </p>
+                <p>
+                    <b>Checkout Type</b><br />
+                    onepage
+                </p>
+                <p>
+                    <b>Customer:</b><br />
+                    <a href="mailto:arjun@tasolglobal.com">Arjun kanani</a> &lt;arjun@tasolglobal.com&gt;
+                </p>
+                <p>
+                    <b>Items</b><br />
+                    COBY CVR-20 USB DIGITAL VOICE RECORDER WITH BUILT-IN MIC VOICE RECORDER  x 1  USD 29.99<br />
+
+                </p>
+                <p>
+                    <b>Total:</b><br />
+                    USD 40.5
+                </p>
+                <p>
+                    <b>Billing Address:</b><br />
+                    Arjun kanani<br/>
+
+sdfsdfdsf<br />
+
+
+
+fsdfad,  Colorado, 79879879<br/>
+United States<br/>
+T: 78979898
+
+
+                </p>
+                <p>
+                    <b>Shipping Address:</b><br />
+                    Arjun kanani<br/>
+
+sdfsdfdsf<br />
+
+
+
+fsdfad,  Colorado, 79879879<br/>
+United States<br/>
+T: 78979898
+
+
+                </p>
+                <p>
+                    <b>Shipping Method:</b><br />
+                    United Parcel Service
+                </p>
+                <p>
+                    <b>Payment Method:</b><br />
+                    Credit Card
+                </p>
+                <p>
+                    <b>Date & Time:</b><br />
+                    Aug 30, 2016 3:43:38 AM
+                </p>
+                </td>
+           <tr>
+    <td bgcolor="#be000d" height="40px" style="border-top:2px solid black;border-bottom:2px solid black;">
+      <p style="color:#fff;text-align:center;font-size:13px;">Sales: 1.844.490.BUZZ | Flatbush Store: 718.258.1200 | Boro Park Store: 718.399.4900</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#434343" height="50px"><p style="color:#ccc;text-align:center;font-size:14px;padding:40px;">© 2015 Buzz Electronics. All Rights Reserved.</p></td>
+  </tr>
+        </table>
+    </td>
+</tr>
+</table>
+</div>
+</body>
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2016-08-30T10:43:38+00:00 DEBUG (7): Getting Amazon SES Transport
+2016-08-30T10:58:59+00:00 DEBUG (7): Zend_Mail Object
+(
+    [_charset:protected] => utf-8
+    [_headers:protected] => Array
+        (
+            [To] => Array
+                (
+                    [0] => =?utf-8?B?VGhlIEJ1eno=?= <cs@thebuzzexperience.com>
+                    [append] => 1
+                )
+
+            [Subject] => Array
+                (
+                    [0] => =?utf-8?B?UGF5bWVudCBUcmFuc2FjdGlvbiBGYWlsZWQgUmVtaW5kZXI=?=
+                )
+
+            [From] => Array
+                (
+                    [0] => The Buzz <cs@thebuzzexperience.com>
+                    [append] => 1
+                )
+
+        )
+
+    [_headerEncoding:protected] => quoted-printable
+    [_from:protected] => cs@thebuzzexperience.com
+    [_to:protected] => Array
+        (
+            [0] => cs@thebuzzexperience.com
+        )
+
+    [_recipients:protected] => Array
+        (
+            [cs@thebuzzexperience.com] => 1
+        )
+
+    [_replyTo:protected] => 
+    [_returnPath:protected] => 
+    [_subject:protected] => =?utf-8?B?UGF5bWVudCBUcmFuc2FjdGlvbiBGYWlsZWQgUmVtaW5kZXI=?=
+    [_date:protected] => 
+    [_messageId:protected] => 
+    [_bodyText:protected] => 
+    [_bodyHtml:protected] => Zend_Mime_Part Object
+        (
+            [type] => text/html
+            [encoding] => quoted-printable
+            [id] => 
+            [disposition] => inline
+            [filename] => 
+            [description] => 
+            [charset] => utf-8
+            [boundary] => 
+            [location] => 
+            [language] => 
+            [_content:protected] => 
+
+
+
+
+<body style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<div style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+    <td align="center" valign="top" style="padding:20px 0 20px 0">
+        <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="10" border="0" width="650" style="border:1px solid #E0E0E0;">
+         <tr>
+    <td><table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#fff" width="650px">
+        <tr>
+          <td><a href="http://192.168.5.129/buzzelectronicsdev/"><img src="http://192.168.5.129/buzzelectronicsdev/skin/frontend/rwd/default/images/logo_email.gif" alt="The Buzz Electronics" style="margin-bottom:10px;" border="0"/></a></td>
+          <!--width="270px" height="130px"-->
+          <td style="font-size:15px;line-height:1.25;"><span>Orders: 1-844-490-BUZZ</span><br/>
+            <span>Customer Service: 1-866-666-2899</span></td>
+        </tr>
+      </table></td>
+  </tr>
+  
+  <tr>
+    <td style="border-bottom:2px solid black;"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#be000d" height="40px"><h1 style="color:#fff;text-align:center;text-transform:uppercase;font-size:22px;">Welcome To The Buzz</h1></td>
+  </tr>
+
+            <tr>
+                <td valign="top" style="padding:20px;">
+                 
+Payment transaction failed<p>
+                    <b>Reason</b><br />
+                    Payment authorization transaction has been declined:  Declined for CVV failure
+                </p>
+                <p>
+                    <b>Checkout Type</b><br />
+                    onepage
+                </p>
+                <p>
+                    <b>Customer:</b><br />
+                    <a href="mailto:arjun@tasolglobal.com">Arjun kanani</a> &lt;arjun@tasolglobal.com&gt;
+                </p>
+                <p>
+                    <b>Items</b><br />
+                    COBY CVR-20 USB DIGITAL VOICE RECORDER WITH BUILT-IN MIC VOICE RECORDER  x 1  USD 29.99<br />
+
+                </p>
+                <p>
+                    <b>Total:</b><br />
+                    USD 40.5
+                </p>
+                <p>
+                    <b>Billing Address:</b><br />
+                    Arjun kanani<br/>
+
+sdfsdfdsf<br />
+
+
+
+fsdfad,  Colorado, 79879879<br/>
+United States<br/>
+T: 78979898
+
+
+                </p>
+                <p>
+                    <b>Shipping Address:</b><br />
+                    Arjun kanani<br/>
+
+sdfsdfdsf<br />
+
+
+
+fsdfad,  Colorado, 79879879<br/>
+United States<br/>
+T: 78979898
+
+
+                </p>
+                <p>
+                    <b>Shipping Method:</b><br />
+                    United Parcel Service
+                </p>
+                <p>
+                    <b>Payment Method:</b><br />
+                    Credit Card
+                </p>
+                <p>
+                    <b>Date & Time:</b><br />
+                    Aug 30, 2016 3:58:59 AM
+                </p>
+                </td>
+           <tr>
+    <td bgcolor="#be000d" height="40px" style="border-top:2px solid black;border-bottom:2px solid black;">
+      <p style="color:#fff;text-align:center;font-size:13px;">Sales: 1.844.490.BUZZ | Flatbush Store: 718.258.1200 | Boro Park Store: 718.399.4900</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#434343" height="50px"><p style="color:#ccc;text-align:center;font-size:14px;padding:40px;">© 2015 Buzz Electronics. All Rights Reserved.</p></td>
+  </tr>
+        </table>
+    </td>
+</tr>
+</table>
+</div>
+</body>
+            [_isStream:protected] => 
+        )
+
+    [_mimeBoundary:protected] => 
+    [_type:protected] => 
+    [hasAttachments] => 
+    [_parts:protected] => Array
+        (
+        )
+
+    [_mime:protected] => 
+)
+
+2016-08-30T10:58:59+00:00 DEBUG (7): Getting Amazon SES Transport

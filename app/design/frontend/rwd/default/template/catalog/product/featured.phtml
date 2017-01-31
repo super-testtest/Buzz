@@ -1,0 +1,61 @@
+<?php
+$totalPerPage = ($this->show_total) ? $this->show_total : 3;
+$visibility = array(
+Mage_Catalog_Model_Product_Visibility::VISIBILITY_BOTH,
+Mage_Catalog_Model_Product_Visibility::VISIBILITY_IN_CATALOG
+);
+$storeId = Mage::app()->getStore()->getId();
+$_productCollection = Mage::getResourceModel('reports/product_collection')
+->addAttributeToSelect('*')
+->setStoreId($storeId)
+->addStoreFilter($storeId)
+->addAttributeToFilter('visibility', $visibility)
+->addAttributeToFilter('featured', true)
+->setOrder('created_at', 'desc')
+->addAttributeToSelect('status')
+->setPageSize($totalPerPage);
+
+Mage::getSingleton('catalog/product_status') -> addVisibleFilterToCollection($_productCollection);
+Mage::getSingleton('cataloginventory/stock') -> addInStockFilterToCollection($_productCollection);
+Mage::getSingleton('catalog/product_visibility') -> addVisibleInSearchFilterToCollection($_productCollection);
+?>
+
+<div id="shop-great-deals">
+<!--/////////////////////////////////////////////////////////////-->
+
+<h2 ><center>Shop Great Deals</center></h2>  <!---THIS IS THE HEADLINE TO CHANGE -->
+
+<!--/////////////////////////////////////////////////////////////-->
+<?php $_collectionSize = $_productCollection->count() ?>
+<div class="featured-product-grid" id="product-list-table">
+
+<?php $i=0; foreach ($_productCollection as $_product): ?>
+	<?php if ($i++%3==0): ?>
+<?php endif ?>
+
+<ul>
+<li>
+		<div class="product-image">
+			<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>">
+				<img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(500, 500); ?>" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" />
+			</a>
+			<div class="product-bg">&nbsp;</div>
+		</div>
+
+		<h3><a href="<?php echo $_product->getProductUrl() ?>"><?php echo $_product->getName() ?></a></h3> 
+		<!-- <div class="short-descript"> <?php /*echo substr($_product->getShortDescription(),0,50); */?></div> -->
+
+	<span class="new"><?php echo $this->helper('checkout')->formatPrice($_product->getPrice()) ?></span>
+</li>
+
+		<?php if ($i%3==0 && $i!=$_collectionSize): ?>
+		<?php endif ?><?php endforeach ?>
+		<?php for($i;$i%3!=0;$i++): ?>
+	<li class="empty-product">&nbsp;</li><?php endfor ?><?php if ($i%3==0): ?>
+		<?php endif ?>
+</div><!-- End of Featured Products-->
+
+	<script type="text/javascript">decorateTable('product-list-table')</script>
+</div>
+
+<!-- <?php /*echo substr($this->htmlEscape($_product->getName()),0,31)*/ ?> -->

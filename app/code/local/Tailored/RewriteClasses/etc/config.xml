@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Tailored_RewriteClasses>
+      <version>0.1.0</version>
+    </Tailored_RewriteClasses>
+  </modules>
+  <global>
+    <helpers>
+      <rewriteclasses>
+        <class>Tailored_RewriteClasses_Helper</class>
+      </rewriteclasses>
+    </helpers>
+	<models>
+	  <rewriteclasses>
+  		<class>Tailored_RewriteClasses_Model</class>
+  		<resourceModel>rewriteclasses_mysql4</resourceModel>
+	  </rewriteclasses>
+			<importexport>
+				<rewrite>
+					<import_entity_product>Tailored_RewriteClasses_Model_ImportExport_Import_Entity_Product</import_entity_product>
+				</rewrite>
+			</importexport>
+      
+      <sendfriend>
+        <rewrite>
+          <sendfriend>Tailored_RewriteClasses_Model_Sendfriend_Sendfriend</sendfriend>
+        </rewrite>
+      </sendfriend>
+	</models>
+  </global>
+</config> 

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Tailored_Tabs>
+      <version>0.1.0</version>
+    </Tailored_Tabs>
+  </modules>
+  <global>
+    <helpers>
+      <tabs>
+        <class>Tailored_Tabs_Helper</class>
+      </tabs>
+    </helpers>
+  </global>
+  <adminhtml>
+      <acl>
+          <resources>
+              <all>
+                  <title>Allow Everything</title>
+              </all>
+              <admin>
+                  <children>
+                      <system>
+                          <children>
+                              <config>
+                                  <children>
+                                      <tabs_option module="tabs">
+                                          <title>tabs</title>
+                                          <sort_order>50</sort_order>
+                                      </tabs_option>
+                                  </children>
+                              </config>
+                          </children>
+                      </system>
+                    </children>
+                       <Tailored_Tabs>
+                          <title>Tabs</title>
+                          <sort_order>10</sort_order>
+                      </Tailored_Tabs>
+              </admin>
+          </resources>
+        </acl>
+  </adminhtml>
+</config> 

@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * MGS_ResponsiveSlideshow Extension
+ *
+ * @category    Local
+ * @package     MGS_ResponsiveSlideshow
+ * @author      dungnv (dungnv@arrowhitech.com)
+ * @copyright   Copyright(c) 2011 Arrowhitech Inc. (http://www.arrowhitech.com)
+ *
+ */
+
+/**
+ *
+ * @category   Local
+ * @package    MGS_ResponsiveSlideshow
+ * @author     dungnv <dungnv@arrowhitech.com>
+ */
+ 
+-->
+<config>
+    <modules>
+        <MGS_ResponsiveSlideshow>
+            <version>1.0.2</version>
+        </MGS_ResponsiveSlideshow>
+    </modules>
+    <frontend>
+        <routers>
+            <aslideshow>
+                <use>standard</use>
+                <args>
+                    <module>MGS_ResponsiveSlideshow</module>
+                    <frontName>aslideshow</frontName>
+                </args>
+            </aslideshow>
+        </routers>
+        <layout>
+            <updates>
+                <aslideshow>
+                    <file>mgs_responsiveslideshow.xml</file>
+                </aslideshow>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+            <aslideshow>
+                <use>admin</use>
+                <args>
+                    <module>MGS_ResponsiveSlideshow</module>
+                    <frontName>aslideshow</frontName>
+                </args>
+            </aslideshow>
+        </routers>
+    </admin>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <aslideshow>
+                            <title>Slideshow</title>
+                            <sort_order>2</sort_order>
+                            <children>
+                                <index>
+                                    <title>Manage Slideshow</title>
+                                    <sort_order>1</sort_order>
+                                </index>
+                                <new>
+                                    <title>Add Slideshow</title>
+                                    <sort_order>2</sort_order>
+                                </new>
+                            </children>
+                        </aslideshow>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <aslideshow>
+                                            <title>Slideshow Section</title>
+                                        </aslideshow>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <!--<menu>
+            <aslideshow module="aslideshow">
+                <title>Slideshow</title>
+                <sort_order>50</sort_order>
+                <children>
+                    <add module="aslideshow">
+                        <title>Add Slideshow</title>
+                        <sort_order>0</sort_order>
+                        <action>aslideshow/adminhtml_slideshow/add</action>
+                    </add>
+                    <index module="aslideshow">
+                        <title>Manage Slideshow</title>
+                        <sort_order>1</sort_order>
+                        <action>aslideshow/adminhtml_slideshow/index</action>
+                    </index>
+                </children>
+            </aslideshow>
+        </menu>-->
+		<menu>
+			<mgscore module="mgscore">
+				<children>
+					 <aslideshow>
+						 <title>Slideshow</title>
+						 <sort_order>2</sort_order>
+						 <children>
+							<add>
+								<title>Add Slideshow</title>
+								<sort_order>1</sort_order>
+								<action>aslideshow/adminhtml_slideshow/add</action>
+							</add>
+							<index>
+								<title>Manage Slideshow</title>
+								<sort_order>2</sort_order>
+								<action>aslideshow/adminhtml_slideshow/index</action>
+							</index>
+						</children>
+					 </aslideshow>
+				</children>
+			</mgscore>
+		</menu>
+        <layout>
+			<updates>
+				<aslideshow>
+					<file>aslideshow.xml</file>
+				</aslideshow>
+			</updates>
+		</layout>
+    </adminhtml>
+    <global>
+        <blocks>
+            <aslideshow>
+                <class>MGS_ResponsiveSlideshow_Block</class>
+            </aslideshow>
+        </blocks>
+        <models>
+            <aslideshow>
+                <class>MGS_ResponsiveSlideshow_Model</class>
+                <resourceModel>aslideshow_mysql4</resourceModel>
+            </aslideshow>
+            <aslideshow_mysql4>
+                <class>MGS_ResponsiveSlideshow_Model_Mysql4</class>
+                <entities>
+                    <slideshow>
+                        <table>mgs_reponsiveslideshow_slideshow</table>
+                    </slideshow>
+                    <slideshow_image>
+                        <table>mgs_reponsiveslideshow_slideshow_image</table>
+                    </slideshow_image>
+                    <slideshow_category>
+                        <table>mgs_reponsiveslideshow_slideshow_category</table>
+                    </slideshow_category>
+                    <slideshow_product>
+                        <table>mgs_reponsiveslideshow_slideshow_product</table>
+                    </slideshow_product>
+                    <slideshow_staticblock>
+                        <table>mgs_reponsiveslideshow_slideshow_staticblock</table>
+                    </slideshow_staticblock>
+                    <slideshow_page>
+                        <table>mgs_reponsiveslideshow_slideshow_page</table>
+                    </slideshow_page>
+                    <slideshow_store>
+                        <table>mgs_reponsiveslideshow_slideshow_store</table>
+                    </slideshow_store>
+                </entities>
+            </aslideshow_mysql4>
+        </models>
+        <helpers>
+            <aslideshow>
+                <class>MGS_ResponsiveSlideshow_Helper</class>
+            </aslideshow>
+        </helpers>
+        <resources>
+            <aslideshow_setup>
+                <setup>
+                    <module>MGS_ResponsiveSlideshow</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </aslideshow_setup>
+            <aslideshow_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </aslideshow_write>
+            <aslideshow_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </aslideshow_read>
+        </resources>
+    </global>
+</config>

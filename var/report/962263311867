@@ -1,0 +1,18 @@
+a:5:{i:0;s:164:"Invalid method Mage_CatalogSearch_Model_Query::orWhere(Array
+(
+    [0] => Array
+        (
+            [0] => query_text
+            [1] => silverware
+        )
+
+)
+)";i:1;s:1108:"#0 /var/www/html/buzzelectronicsdev/app/code/local/Mirasvit/SearchAutocomplete/controllers/AjaxController.php(30): Varien_Object->__call('orWhere', Array)
+#1 /var/www/html/buzzelectronicsdev/app/code/local/Mirasvit/SearchAutocomplete/controllers/AjaxController.php(30): Mage_CatalogSearch_Model_Query->orWhere(Array)
+#2 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mirasvit_Searchautocomplete_AjaxController->getAction()
+#3 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('get')
+#4 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /var/www/html/buzzelectronicsdev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 /var/www/html/buzzelectronicsdev/index.php(94): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:81:"/buzzelectronicsdev/searchautocomplete/ajax/get/?q=flatware&cat=0&store=undefined";s:11:"script_name";s:29:"/buzzelectronicsdev/index.php";s:4:"skin";s:7:"default";}

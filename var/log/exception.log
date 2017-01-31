@@ -1,0 +1,178 @@
+2016-08-30T10:03:44+00:00 ERR (3): 
+exception 'Exception' with message '<ErrorResponse xmlns="http://ses.amazonaws.com/doc/2010-12-01/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>SignatureDoesNotMatch</Code>
+    <Message>The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.</Message>
+  </Error>
+  <RequestId>0902d11a-6e99-11e6-b807-394177d0dc9e</RequestId>
+</ErrorResponse>
+' in /var/www/html/buzzelectronicsdev/app/code/local/Aschroder/SMTPPro/lib/AmazonSES.php:108
+Stack trace:
+#0 /var/www/html/buzzelectronicsdev/lib/Zend/Mail/Transport/Abstract.php(348): App_Mail_Transport_AmazonSES->_sendMail()
+#1 /var/www/html/buzzelectronicsdev/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /var/www/html/buzzelectronicsdev/app/code/local/Aschroder/SMTPPro/Model/Email/Template.php(141): Zend_Mail->send(Object(App_Mail_Transport_AmazonSES))
+#3 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Email/Template.php(508): Aschroder_SMTPPro_Model_Email_Template->send(Array, Array, Array)
+#4 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Email/Template/Mailer.php(84): Mage_Core_Model_Email_Template->sendTransactional('customer_create...', 'general', Array, Array, Array, '1')
+#5 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Customer/Model/Customer.php(680): Mage_Core_Model_Email_Template_Mailer->send()
+#6 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Customer/Model/Customer.php(607): Mage_Customer_Model_Customer->_sendEmailTemplate('customer/create...', 'customer/create...', Array, '1')
+#7 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Customer/controllers/AccountController.php(575): Mage_Customer_Model_Customer->sendNewAccountEmail('registered', '', '1')
+#8 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Customer/controllers/AccountController.php(350): Mage_Customer_AccountController->_welcomeCustomer(Object(Mage_Customer_Model_Customer))
+#9 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Customer/controllers/AccountController.php(303): Mage_Customer_AccountController->_successProcessRegistration(Object(Mage_Customer_Model_Customer))
+#10 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Customer_AccountController->createPostAction()
+#11 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('createpost')
+#12 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/buzzelectronicsdev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/buzzelectronicsdev/index.php(95): Mage::run('', 'store')
+#16 {main}
+2016-08-30T10:43:22+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Payment authorization transaction has been declined:  Declined for CVV failure' in /var/www/html/buzzelectronicsdev/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/buzzelectronicsdev/app/code/community/Mage/Usaepay/Model/CCPaymentAction.php(196): Mage::throwException('Payment authori...')
+#1 /var/www/html/buzzelectronicsdev/app/code/community/Mage/Usaepay/Model/CCPaymentAction.php(378): Mage_Usaepay_Model_CCPaymentAction->authorize(Object(Mage_Sales_Model_Order_Payment), '40.5')
+#2 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(443): Mage_Usaepay_Model_CCPaymentAction->capture(Object(Mage_Sales_Model_Order_Payment), '40.5')
+#3 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Invoice.php(395): Mage_Sales_Model_Order_Payment->capture(Object(Mage_Sales_Model_Order_Invoice))
+#4 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(608): Mage_Sales_Model_Order_Invoice->capture()
+#5 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(410): Mage_Sales_Model_Order_Payment->_invoice()
+#6 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(348): Mage_Sales_Model_Order_Payment->capture(NULL)
+#7 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order.php(898): Mage_Sales_Model_Order_Payment->place()
+#8 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order.php(1116): Mage_Sales_Model_Order->_placePayment()
+#9 [internal function]: Mage_Sales_Model_Order->place()
+#10 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Resource/Transaction.php(105): call_user_func(Array)
+#11 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Resource/Transaction.php(159): Mage_Core_Model_Resource_Transaction->_runCallbacks()
+#12 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Service/Quote.php(189): Mage_Core_Model_Resource_Transaction->save()
+#13 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Service/Quote.php(249): Mage_Sales_Model_Service_Quote->submitOrder()
+#14 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/Model/Type/Onepage.php(812): Mage_Sales_Model_Service_Quote->submitAll()
+#15 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/controllers/OnepageController.php(579): Mage_Checkout_Model_Type_Onepage->saveOrder()
+#16 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->saveOrderAction()
+#17 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('saveOrder')
+#18 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#19 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#20 /var/www/html/buzzelectronicsdev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#21 /var/www/html/buzzelectronicsdev/index.php(95): Mage::run('', 'store')
+#22 {main}
+2016-08-30T10:43:25+00:00 ERR (3): 
+exception 'Exception' with message '<ErrorResponse xmlns="http://ses.amazonaws.com/doc/2010-12-01/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>SignatureDoesNotMatch</Code>
+    <Message>The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.</Message>
+  </Error>
+  <RequestId>943f3ff9-6e9e-11e6-bc98-933eeb49bc56</RequestId>
+</ErrorResponse>
+' in /var/www/html/buzzelectronicsdev/app/code/local/Aschroder/SMTPPro/lib/AmazonSES.php:108
+Stack trace:
+#0 /var/www/html/buzzelectronicsdev/lib/Zend/Mail/Transport/Abstract.php(348): App_Mail_Transport_AmazonSES->_sendMail()
+#1 /var/www/html/buzzelectronicsdev/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /var/www/html/buzzelectronicsdev/app/code/local/Aschroder/SMTPPro/Model/Email/Template.php(141): Zend_Mail->send(Object(App_Mail_Transport_AmazonSES))
+#3 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Email/Template.php(508): Aschroder_SMTPPro_Model_Email_Template->send('cs@thebuzzexper...', 'The Buzz', Array)
+#4 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/Helper/Data.php(247): Mage_Core_Model_Email_Template->sendTransactional('checkout_paymen...', 'general', 'cs@thebuzzexper...', 'The Buzz', Array)
+#5 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/controllers/OnepageController.php(596): Mage_Checkout_Helper_Data->sendPaymentFailedEmail(Object(Mage_Sales_Model_Quote), 'Payment authori...')
+#6 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->saveOrderAction()
+#7 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('saveOrder')
+#8 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /var/www/html/buzzelectronicsdev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /var/www/html/buzzelectronicsdev/index.php(95): Mage::run('', 'store')
+#12 {main}
+2016-08-30T10:43:38+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Payment authorization transaction has been declined:  Declined for CVV failure' in /var/www/html/buzzelectronicsdev/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/buzzelectronicsdev/app/code/community/Mage/Usaepay/Model/CCPaymentAction.php(196): Mage::throwException('Payment authori...')
+#1 /var/www/html/buzzelectronicsdev/app/code/community/Mage/Usaepay/Model/CCPaymentAction.php(378): Mage_Usaepay_Model_CCPaymentAction->authorize(Object(Mage_Sales_Model_Order_Payment), '40.5')
+#2 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(443): Mage_Usaepay_Model_CCPaymentAction->capture(Object(Mage_Sales_Model_Order_Payment), '40.5')
+#3 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Invoice.php(395): Mage_Sales_Model_Order_Payment->capture(Object(Mage_Sales_Model_Order_Invoice))
+#4 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(608): Mage_Sales_Model_Order_Invoice->capture()
+#5 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(410): Mage_Sales_Model_Order_Payment->_invoice()
+#6 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(348): Mage_Sales_Model_Order_Payment->capture(NULL)
+#7 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order.php(898): Mage_Sales_Model_Order_Payment->place()
+#8 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order.php(1116): Mage_Sales_Model_Order->_placePayment()
+#9 [internal function]: Mage_Sales_Model_Order->place()
+#10 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Resource/Transaction.php(105): call_user_func(Array)
+#11 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Resource/Transaction.php(159): Mage_Core_Model_Resource_Transaction->_runCallbacks()
+#12 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Service/Quote.php(189): Mage_Core_Model_Resource_Transaction->save()
+#13 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Service/Quote.php(249): Mage_Sales_Model_Service_Quote->submitOrder()
+#14 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/Model/Type/Onepage.php(812): Mage_Sales_Model_Service_Quote->submitAll()
+#15 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/controllers/OnepageController.php(579): Mage_Checkout_Model_Type_Onepage->saveOrder()
+#16 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->saveOrderAction()
+#17 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('saveOrder')
+#18 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#19 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#20 /var/www/html/buzzelectronicsdev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#21 /var/www/html/buzzelectronicsdev/index.php(95): Mage::run('', 'store')
+#22 {main}
+2016-08-30T10:43:43+00:00 ERR (3): 
+exception 'Exception' with message '<ErrorResponse xmlns="http://ses.amazonaws.com/doc/2010-12-01/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>SignatureDoesNotMatch</Code>
+    <Message>The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.</Message>
+  </Error>
+  <RequestId>9eba0d34-6e9e-11e6-8a33-c39fbf86d094</RequestId>
+</ErrorResponse>
+' in /var/www/html/buzzelectronicsdev/app/code/local/Aschroder/SMTPPro/lib/AmazonSES.php:108
+Stack trace:
+#0 /var/www/html/buzzelectronicsdev/lib/Zend/Mail/Transport/Abstract.php(348): App_Mail_Transport_AmazonSES->_sendMail()
+#1 /var/www/html/buzzelectronicsdev/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /var/www/html/buzzelectronicsdev/app/code/local/Aschroder/SMTPPro/Model/Email/Template.php(141): Zend_Mail->send(Object(App_Mail_Transport_AmazonSES))
+#3 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Email/Template.php(508): Aschroder_SMTPPro_Model_Email_Template->send('cs@thebuzzexper...', 'The Buzz', Array)
+#4 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/Helper/Data.php(247): Mage_Core_Model_Email_Template->sendTransactional('checkout_paymen...', 'general', 'cs@thebuzzexper...', 'The Buzz', Array)
+#5 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/controllers/OnepageController.php(596): Mage_Checkout_Helper_Data->sendPaymentFailedEmail(Object(Mage_Sales_Model_Quote), 'Payment authori...')
+#6 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->saveOrderAction()
+#7 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('saveOrder')
+#8 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /var/www/html/buzzelectronicsdev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /var/www/html/buzzelectronicsdev/index.php(95): Mage::run('', 'store')
+#12 {main}
+2016-08-30T10:58:59+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Payment authorization transaction has been declined:  Declined for CVV failure' in /var/www/html/buzzelectronicsdev/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/buzzelectronicsdev/app/code/community/Mage/Usaepay/Model/CCPaymentAction.php(196): Mage::throwException('Payment authori...')
+#1 /var/www/html/buzzelectronicsdev/app/code/community/Mage/Usaepay/Model/CCPaymentAction.php(378): Mage_Usaepay_Model_CCPaymentAction->authorize(Object(Mage_Sales_Model_Order_Payment), '40.5')
+#2 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(443): Mage_Usaepay_Model_CCPaymentAction->capture(Object(Mage_Sales_Model_Order_Payment), '40.5')
+#3 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Invoice.php(395): Mage_Sales_Model_Order_Payment->capture(Object(Mage_Sales_Model_Order_Invoice))
+#4 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(608): Mage_Sales_Model_Order_Invoice->capture()
+#5 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(410): Mage_Sales_Model_Order_Payment->_invoice()
+#6 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order/Payment.php(348): Mage_Sales_Model_Order_Payment->capture(NULL)
+#7 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order.php(898): Mage_Sales_Model_Order_Payment->place()
+#8 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Order.php(1116): Mage_Sales_Model_Order->_placePayment()
+#9 [internal function]: Mage_Sales_Model_Order->place()
+#10 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Resource/Transaction.php(105): call_user_func(Array)
+#11 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Resource/Transaction.php(159): Mage_Core_Model_Resource_Transaction->_runCallbacks()
+#12 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Service/Quote.php(189): Mage_Core_Model_Resource_Transaction->save()
+#13 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Sales/Model/Service/Quote.php(249): Mage_Sales_Model_Service_Quote->submitOrder()
+#14 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/Model/Type/Onepage.php(812): Mage_Sales_Model_Service_Quote->submitAll()
+#15 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/controllers/OnepageController.php(579): Mage_Checkout_Model_Type_Onepage->saveOrder()
+#16 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->saveOrderAction()
+#17 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('saveOrder')
+#18 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#19 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#20 /var/www/html/buzzelectronicsdev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#21 /var/www/html/buzzelectronicsdev/index.php(95): Mage::run('', 'store')
+#22 {main}
+2016-08-30T10:59:02+00:00 ERR (3): 
+exception 'Exception' with message '<ErrorResponse xmlns="http://ses.amazonaws.com/doc/2010-12-01/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>SignatureDoesNotMatch</Code>
+    <Message>The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.</Message>
+  </Error>
+  <RequestId>c276b11a-6ea0-11e6-a6ec-cf310d8b3841</RequestId>
+</ErrorResponse>
+' in /var/www/html/buzzelectronicsdev/app/code/local/Aschroder/SMTPPro/lib/AmazonSES.php:108
+Stack trace:
+#0 /var/www/html/buzzelectronicsdev/lib/Zend/Mail/Transport/Abstract.php(348): App_Mail_Transport_AmazonSES->_sendMail()
+#1 /var/www/html/buzzelectronicsdev/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /var/www/html/buzzelectronicsdev/app/code/local/Aschroder/SMTPPro/Model/Email/Template.php(141): Zend_Mail->send(Object(App_Mail_Transport_AmazonSES))
+#3 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/Email/Template.php(508): Aschroder_SMTPPro_Model_Email_Template->send('cs@thebuzzexper...', 'The Buzz', Array)
+#4 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/Helper/Data.php(247): Mage_Core_Model_Email_Template->sendTransactional('checkout_paymen...', 'general', 'cs@thebuzzexper...', 'The Buzz', Array)
+#5 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Checkout/controllers/OnepageController.php(596): Mage_Checkout_Helper_Data->sendPaymentFailedEmail(Object(Mage_Sales_Model_Quote), 'Payment authori...')
+#6 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->saveOrderAction()
+#7 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('saveOrder')
+#8 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /var/www/html/buzzelectronicsdev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /var/www/html/buzzelectronicsdev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /var/www/html/buzzelectronicsdev/index.php(95): Mage::run('', 'store')
+#12 {main}
